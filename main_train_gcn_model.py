@@ -54,7 +54,7 @@ class ModGCNScore:
         return tmp_graph
 
     def readTrain(self, path_train: str):
-
+        print('read predict result...')
         with open(path_train, 'rb') as f:
             lines = f.read().decode(encoding='utf-8').split('\r\n')
         table_list = lines[0].split('\t')
@@ -70,14 +70,14 @@ class ModGCNScore:
                 i_smiles1 = line_list[position_smiles1]
                 i_smiles2 = line_list[position_smiles2]
                 i_label = int(line_list[position_class])
-                print(i_smiles1, i_smiles2, i_label)
+                # print(i_smiles1, i_smiles2, i_label)
                 try:
                     i_graph = self.createGraph(i_smiles1, i_smiles2, i_label)
                     list_graph_feature.append(i_graph)
                 except:
-                    print('wrong')
+                    # print('wrong')
                     continue
-        print(len(list_graph_feature))
+        print('read done, valid result number and prepare to train:', len(list_graph_feature))
         list_graph_feature_new = []
         for d in list_graph_feature:
             i = Data(x=torch.tensor(d.x),
@@ -185,7 +185,7 @@ class ModGCNScore:
         valid_loader = DataLoader(loader_Valid, batch_size=8, shuffle=True, drop_last=False)
         list_train_loss, list_val_loss, list_train_acc, list_val_acc = [], [], [], []
 
-        n_epoch = 300
+        n_epoch = 3
         net = CCPGraph()
         optimizer = torch.optim.Adam(params=net.parameters(), lr=0.001, betas=(0.9, 0.98), eps=1e-9)
         # optimizer = torch.optim.SGD(params=net.parameters(), lr=0.005)
@@ -671,15 +671,7 @@ class ModTransformerScore:
 
 if __name__ == '__main__':
 
-    # from rdkit.Chem import Draw
-    # smiles1 = 'CN[C@@H]([C@@H](C)C)C(C)=O'
-    # mol1 = Chem.MolFromSmiles(smiles1)
-    # Draw.MolToFile(mol1, 'cdk2_mol1.o.png')
-    # input('123')
     path_train = r'data\train_data_0125.txt'
-    path_test = r'data\train_data_0125.txt'
     modScore = ModGCNScore()
     modScore.readTrain(path_train)
     modScore.validation()
-    modScore.readTest(path_test)
-    modScore.predict()
