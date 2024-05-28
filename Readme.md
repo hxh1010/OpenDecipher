@@ -119,7 +119,7 @@ write predict result to  predict\2024-05-28-21-06-13.txt
 
 ## 结果解析
 模型预测的结果会保存到predict文件夹中，格式为predict\XX-XX-XX-XX.txt，其中XX-XX-XX-XX表示当前模型预测的日期，内容是所有预测结果基础信息、模型打分和模型根据打分判断的类别
-
+#### 结果文件格式
 | description | smile_before | smile_after | predict|class
 |----------|----------|----------|---------|---------|
 | tri-Methylation| O=C([CH2])[C@H](CCCCN)N[CH2] | O=C([CH2])[C@H](CCCC[N+](C)(C)C)N[CH2] | 0.999085545539856	|True
