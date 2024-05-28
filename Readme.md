@@ -9,7 +9,7 @@
 ### 系统要求
 
 - Python 3.7 或更高版本
-- pip (Python包管理器) or anaconda
+- pip or anaconda
 
 ### 安装依赖
 
