@@ -185,7 +185,7 @@ class ModGCNScore:
         valid_loader = DataLoader(loader_Valid, batch_size=8, shuffle=True, drop_last=False)
         list_train_loss, list_val_loss, list_train_acc, list_val_acc = [], [], [], []
 
-        n_epoch = 3
+        n_epoch = 200
         net = CCPGraph()
         optimizer = torch.optim.Adam(params=net.parameters(), lr=0.001, betas=(0.9, 0.98), eps=1e-9)
         # optimizer = torch.optim.SGD(params=net.parameters(), lr=0.005)
