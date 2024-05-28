@@ -31,7 +31,7 @@ pip install torch torch_geometric sklearn rdkit matplotlib
 
 请确保您的数据集中的分子以SMILES格式表示，并存储在CSV或其他兼容格式中。
 训练集格式：
-训练集文件表头需要包括描述，反应前分子SMILES，反应后分子SMILES，类别（能否反应）四个必要信息，示例如下：
+训练集文件表头需要包括描述，反应前分子SMILES，反应后分子SMILES，类别（1能反应，0不能反应）四个必要信息，示例如下：
 
 | description | smile_before | smile_after | class|
 |----------|----------|----------|----------|
