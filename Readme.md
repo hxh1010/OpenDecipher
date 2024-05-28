@@ -30,7 +30,7 @@ pip install torch torch_geometric sklearn rdkit matplotlib
 ## 数据准备
 
 请确保您的数据集中的分子以SMILES格式表示，并存储在CSV或其他兼容格式中。
-训练集格式：
+#### 训练集格式：
 训练集文件表头需要包括描述，反应前分子SMILES，反应后分子SMILES，类别（1能反应，0不能反应）四个必要信息，示例如下：
 
 | description | smile_before | smile_after | class|
@@ -38,7 +38,7 @@ pip install torch torch_geometric sklearn rdkit matplotlib
 | tri-Methylation| O=C([CH2])[C@H](CCCCN)N[CH2] | O=C([CH2])[C@H](CCCC[N+](C)(C)C)N[CH2] | 1|
 | Phospho | O=C([CH2])[C@H](CCCCN)N[CH2] | O=C([CH2])[C@H](CCCCNP(O)(O)=O)N[CH2] | 0|
 
-测试集格式：
+#### 测试集格式：
 测试集文件表头需要包括描述，反应前分子SMILES，反应后分子SMILES，三个必要信息，示例如下：
 
 | description | smile_before | smile_after | 
