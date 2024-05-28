@@ -54,7 +54,7 @@ class ModGCNScore:
         return tmp_graph
 
     def readTrain(self, path_train: str):
-        print('read predict result...')
+        print('read train result...')
         with open(path_train, 'rb') as f:
             lines = f.read().decode(encoding='utf-8').split('\r\n')
         table_list = lines[0].split('\t')
