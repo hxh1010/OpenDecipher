@@ -1,0 +1,4 @@
+DeltaMass	aa	position
+-3.994915	Glu	
+244.9382	Asp	N-term
+445.2884	Leu	N-term

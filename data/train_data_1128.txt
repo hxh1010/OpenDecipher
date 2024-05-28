@@ -1,0 +1,17 @@
+description	smile_before	smile_after	class
+Prompt loss of side chain from oxidised Met	CN[C@@H](CCSC)C(C)=O	CN[C@@H](C=C)C(C)=O	1
+Ornithine from Arginine	CN[C@@H](CCCNC(N)=N)C(C)=O	CN[C@@H](CCCN)C(C)=O	1
+Dehydroalanine (from Cysteine)	CN[C@@H](CS)C(C)=O	CNC(C(C)=O)=C	1
+Pyro-glu from E	O=C(NC)[C@H](CCC(O)=O)N	O=C(NC)[C@H](CC1)NC1=O	1
+Loss of ammonia	O=C(NC)[C@H](CS)N	O=C(NC)/C=C/S	1
+Pyro-glu from Q	O=C(NC)[C@H](CCC(N)=O)N	O=C(NC)[C@H](CC1)NC1=O	1
+Pyro-Glu from E + Methylation	O=C(NC)[C@H](CCC(N)=O)N	O=C(NC)[C@H](CC1)N(C)C1=O	1
+Didehydro	O=C(C)N[C@@H](CCCCN)C(O)=O	O=C(C)N[C@@H]1C(O[C@H](N)CCC1)=O	1
+Prompt loss of side chain from oxidised Met	CN[C@@H](CCSC)C(C)=O	CN/C(C(C)=O)=C\C	0
+Ornithine from Arginine	CN[C@@H](CCCNC(N)=N)C(C)=O	CN[C@@H](CCNC)C(C)=O	0
+Dehydroalanine (from Cysteine)	CN[C@@H](CS)C(C)=O	CNC(C)C(C)=O	0
+Pyro-glu from E	O=C(NC)[C@H](CCC(O)=O)N	O=C(NC)[C@H](/C=C/C=O)N	0
+Loss of ammonia	O=C(NC)[C@H](CS)N	O=C(NC)C1CS1	0
+Pyro-glu from Q	O=C(NC)[C@H](CCC(N)=O)N	O=C(NC)/C=C/CC(N)=O	0
+Pyro-Glu from E + Methylation	O=C(NC)[C@H](CCC(N)=O)N	O=C(NC)/C=C(C)/CC(N)=O	0
+Didehydro	O=C(C)N[C@@H](CCCCN)C(O)=O	O=C(C)N[C@@H](CCCC=N)C(O)=O	0

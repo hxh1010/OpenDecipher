@@ -1,0 +1,386 @@
+delta_MS	Description	delta_MS.1	Description.1	aa	MSAddition	备注	smile_before	smile_after
+-14.999666	Glu->Asn substitution	54.010565	Methylglyoxal-derived hydroimidazolone	E	39.010899	结构已画	CN[C@@H](CCC(O)=O)C(C)=O	CN[C@@H](CC(NC(C=C)=O)=O)C(C)=O
+14.01565	Ser->Thr substitution	110.0004	S-(5-Hydroxy-2-furoyl)	S	124.01605	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H]([C@H](OC(C1=CC=C(O)O1)=O)C)C(C)=O
+-14.01565	Glu->Asp substitution	-18.010565	Dehydration	E	-32.026215	结构已画	CN[C@@H](CCC(O)=O)C(C)=O	CN/C(C(C)=O)=C/C=O
+-15.977156	Cys->Ser substitution	-20.026215	Formation of five membered aromatic heterocycle	C	-36.003371	结构已画	CN[C@@H](CS)C(C)=O	CC1=NC(C(C)=O)=CO1
+-20.026215	Formation of five membered aromatic heterocycle	15.994915	Oxidation or Hydroxylation	C	-4.0313	结构已画	CN[C@@H](CS)C(C)=O	CC1=NC(C(C)=O)=CSO1
+-50.026883	His->Ser substitution	55.98982	Glyoxylate	H	5.962937	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	O=C(OC[C@@H](C(C)=O)NC)C=O
+-27.010899	Asn->Ser substitution	-18.010565	Dehydration	N	-45.021464	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CNC(C(C)=O)=C
+26.01565	Ala->Pro substitution	28.0313	di-Methylation	A	54.04695	pro需要在pro N term可以双甲基化	CN[C@@H](C)C(C)=O	O=[C@]([N-][C@@H](C)C(C)=O)[C@H]1[N+](C)(C)CCC1
+14.01565	Ser->Thr substitution	127.063329	4-Acetamidobutanoyl	S	141.078979	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H]([C@H](OC(CCCNC(C)=O)=O)C)C(C)=O
+-1.961506	Cys->Thr substitution	-2.01565	Didehydro	C	-3.977156	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H]([C@@](C)=O)C(C)=O
+-41.026549	Gln->Ser substitution	-20.026215	Formation of five membered aromatic heterocycle	Q	-61.052764	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CC1=NC(C(C)=O)=CO1
+-71.073499	Lys->Gly substitution	350.20945	Hydroxy and then 15-dehroxy-prostaglandin G2	K	279.135951	结构已画	CN[C@@H](CCCCN)C(C)=O	O=C(CCCCC)/C=[C@](OC(C(C)=O)NC)/[C@@H]1[C@@H](C/C=C\CCCC(O)=O)CC[C@H]1O
+-27.010899	Asn->Ser substitution	54.010565	Propenoyl	N	26.999666	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H](COC(C=C)=O)C(C)=O
+-41.062935	Lys->Ser substitution	70.041865	(Iso)Butyryl	K	28.97893	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](COC(CCC)=O)C(C)=O
+14.01565	Ser->Thr substitution	218.0579	Feruloylacetyl	S	232.07355	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H]([C@H](OC(CC(/C=C\C1=CC=C(O)C(OC)=C1)=O)=O)C)C(C)=O
+-1.007825	Half of a disulfide bridge	15.994915	Oxidation or Hydroxylation	C	14.98709	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](C[S]=O)C(C)=O
+-29.992806	Met->Thr substitution	-15.994915	reduction	M	-45.987721	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](CC)C(C)=O
+-41.062935	Lys->Ser substitution	84.0575	Pentanoyl 	K	42.994565	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](COC(CCCC)=O)C(C)=O
+17.956421	Leu/Ile->Met substitution	-21.987721	methionine replacement by homopropargylglycine	L	-4.0313	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](CCC#C)C(C)=O
+-29.992806	Met->Thr substitution	103.00918	Cys	M	73.016374	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H]([C@H](OC([C@H](CS)N)=O)C)C(C)=O
+-2.01565	Didehydro	31.989829	dihydroxy	C	29.974179	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](/C=S(=O)\O)C(C)=O
+47.984744	cysteine oxidation to cysteic acid	-18.010565	Dehydration	C	29.974179	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](/C=S(=O)\O)C(C)=O
+-1.007825	Half of a disulfide bridge	31.989829	dihydroxy	C	30.982004	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](C[S](=O)=O)C(C)=O
+11.033743	Cys->Asn substitution	26.01565	Acetaldehyde +26	C	37.049393	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CC(NC=C)=O)C(C)=O
+14.01565	Ser->Thr substitution	257.13756	Add Lys-Glu	S	271.15321	结构已画	CN[C@@H](CO)C(C)=O	O=C(N[C@@H](CCC(OC[C@@H](C(C)=O)NC)=O)[C@@](O)=O)[C@H](CCCCN)N
+24.995249	cyano	15.994915	Oxidation or Hydroxylation	C	40.990164	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(C#N)=O)C(C)=O
+47.984744	cysteine oxidation to cysteic acid	-2.01565	Didehydro	C	45.969094	结构已画	CN[C@@H](CS)C(C)=O	CNC(CS(=O)(O1)=O)C(N1C)=O
+-41.062935	Lys->Ser substitution	154.135765	Decanoyl	K	113.07283	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](COC(CCCCCCCCC)=O)C(C)=O
+47.984744	cysteine oxidation to cysteic acid	-1.007825	Half of a disulfide bridge	C	46.976919	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)([O])=O)C(C)=O
+-15.977156	Cys->Ser substitution	79.956815	O-Sulfonation	C	63.979659	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](COS(=O)(O)=O)C(C)=O
+34.049727	Cys->His substitution	31.989829	dihydroxy	C	66.039556	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CC1=C(O)NC(O)=N1)C(C)=O
+-16.0313	Leu/Ile->Pro substitution	18.010565	Proline oxidation to 5-hydroxy-2-aminovaleric acid	L	1.979265	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](CCCO)[C@](C)=O
+-42.04695	Val->Gly substitution	334.21454	hydroxylation and LTB4	V	292.16759	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](COC(/C=C/CCCC(O)=O)/C=C/C=C/C(O)C/C=C\CCCC)C(C)=O
+57.021464	Iodoacetamide derivative	15.994915	Oxidation or Hydroxylation	C	73.016379	保留，不画结构，直接写成IAA	CN[C@@H](CS)C(C)=O	CN[C@@H](CS([*][*]I)=O)C(C)=O
+14.01565	Ser->Thr substitution	486.158471	Hex3	S	500.174121	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H]([C@H](OC1OC(COCC2OC(COCC3C(O)C(O)C(O)C(CO)O3)C(O)C(O)C2O)C(O)C(O)C1O)C)C(C)=O
+-50.026883	His->Ser substitution	68.026215	Crotonylation	H	17.999332	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](COC(/C=C/C)=O)C(C)=O
+43.005814	Carbamylation	31.989829	dihydroxy	C	74.995643	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)(C(N)=O)=O)C(C)=O
+-15.977156	Cys->Ser substitution	97.016378	maleimide	C	81.039222	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CON1C(CCC1=O)=O)C(C)=O
+-14.01565	Thr->Ser substitution	-18.010565	Dehydration	T	-32.026215	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(C)C(NC)=C
+15.010899	Leu/Ile->Lys substitution	14.01565	Methylation	L	29.026549	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](CCCCNC)C(C)=O
+30.010565	Ala->Thr substitution	168.115	3-Oxodecanoyl	A	198.125565	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CC(OC(CCCCCCCCC)=O)=O)C(C)=O
+-29.992806	Met->Thr substitution	116.010959	L-Malyl	M	86.018153	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H]([C@H](OC(CC(O)C(O)=O)=O)C)C(C)=O
+27.010899	Ser->Asn substitution	26.01565	Acetaldehyde +26	S	53.026549	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(NC#C)=O)C(C)=O
+-14.01565	Thr->Ser substitution	110.0004	S-(5-Hydroxy-2-furoyl)	T	95.98475	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(C)[C@@H](NC)COC(C1=CC=C(O)O1)=O
+-27.010899	Asn->Ser substitution	55.98982	Glyoxylate	N	28.978921	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H](COC(C=O)=O)C(C)=O
+-14.01565	Thr->Ser substitution	114.042927	Asn	T	100.027277	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(C)[C@@H](NC)COC([C@H](CC(N)=O)N)=O
+57.021464	Iodoacetamide derivative	31.989829	dihydroxy	C	89.011293	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)([*][*]I)=O)C(C)=O
+47.984744	cysteine oxidation to cysteic acid	43.005814	Carbamylation	C	90.990558	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(OC(N)=O)(=O)=O)C(C)=O
+27.010899	Ser->Asn substitution	157.08516	Argininyl	S	184.096059	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(NC(NCCC[C@@H](C(O)=O)N)=N)=O)C(C)=O
+-14.01565	Thr->Ser substitution	154.0419	2-Naphthoyl	T	140.02625	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(C)[C@@H](NC)COC(C1=CC=C(C=CC=C2)C2=C1)=O
+27.994915	Ser->Asp substitution	-18.010565	Dehydration	S	9.98435	结构已画	CN[C@@H](CO)C(C)=O	CN1[C@@H](CC1=O)C(C)=O
+-14.01565	Thr->Ser substitution	242.019154	phosphoglycosyl-D-mannose-1-phosphoryl	T	228.003504	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(C)[C@@H](NC)COP(OC1OC(CO)C(O)C(O)C1O)(O)=O
+27.994915	Ser->Asp substitution	37.031634	propargylamine	S	65.026549	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(/C=C/C=N)=O)C(C)=O
+27.994915	Ser->Asp substitution	113.084064	Ile/Leu	S	141.078979	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(OC([C@H](CC(C)C)N)=O)=O)C(C)=O
+14.974514	Leu/Ile->Gln substitution	44.026215	Ethanolation	L	59.000729	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](CCC(NCCO)=O)C(C)=O
+-13.979265	Asp->Thr substitution	68.026215	Crotonylation	D	54.04695	结构已画	CN[C@@H](CC(O)=O)C(C)=O	CN[C@@H]([C@H](OC(/C=C/C)=O)C)C(C)=O
+27.994915	Ser->Asp substitution	130.026609	2-Hydroxyglutaryl	S	158.021524	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(OC(C(CCC(O)=O)O)=O)=O)C(C)=O
+-12.995249	Asn->Thr substitution	-18.010565	Dehydration	N	-31.005814	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H](C=C)C(C)=O
+75.998285	Cysteine mercaptoethanol	15.994915	Oxidation or Hydroxylation	C	91.9932	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(SCCO)=O)C(C)=O
+12.995249	Thr->Asn substitution	-17.026549	Loss of ammonia	T	-4.0313	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN/C(C(C)=O)=C/C=O
+-29.992806	Met->Thr substitution	118.0089	3-Hydroxy-3-(methylthio)propanoyl	M	88.016094	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H]([C@H](OC(CC(O)SC)=O)C)C(C)=O
+-41.062935	Lys->Ser substitution	215.12699	Add Lys-Ser	K	174.064055	结构已画	CN[C@@H](CCCCN)C(C)=O	O=C(N[C@@H](CO)C(OC[C@@H](C(C)=O)NC)=O)[C@H](CCCCN)N
+14.974514	Leu/Ile->Gln substitution	45.987721	b-methylthiolation	L	60.962235	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](CCC(N[SH]=C)=O)C(C)=O
+-28.042534	Arg->Gln substitution	-18.01056	Formation of five membered aromatic heterocycle	R	-46.053094	结构已画	CN[C@@H](CCCNC(N)=N)C(C)=O	CN[C@@H]([C@@H](C1)CC(N)=O)C(C)NC1=O
+-15.977156	Cys->Ser substitution	115.02695	aspartatyl	C	99.049794	结构已画	CN[C@@H](CS)C(C)=O	O=C(O)[C@H](CC(OC[C@@H](C(C)=O)NC)=O)N
+43.005814	Ala->Asn substitution	-17.026549	Loss of ammonia	A	25.979265	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CC1=O)C(N1C)=O
+43.005814	Ala->Asn substitution	26.01565	Acetaldehyde +26	A	69.021464	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CC(NC=C)=O)C(C)=O
+-41.026549	Gln->Ser substitution	70.0055	3-Oxopropionyl	Q	28.978951	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CN[C@@H](COC(CC=O)=O)C(C)=O
+53.091927	Cys->Arg substitution	45.987721	b-methylthiolation	C	99.079648	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CCCNC(NSC)=N)C(C)=O
+-15.977156	Cys->Ser substitution	116.010959	L-Malyl	C	100.033803	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](COC(CC(C(O)=O)O)=O)C(C)=O
+-14.01565	Glu->Asp substitution	93.02146	2,6-Dihydroxypyridine	E	79.00581	结构已画	CN[C@@H](CCC(O)=O)C(C)=O	OC1=NC(OC(C[C@@H](C(C)=O)NC)=O)=CC=C1
+-14.01565	Glu->Asp substitution	257.13756	Add Lys-Glu	E	243.12191	结构已画	CN[C@@H](CCC(O)=O)C(C)=O	O=C(N[C@@H](CCC(OC(C[C@@H](C(C)=O)NC)=O)=O)[C@@](O)=O)[C@H](CCCCN)N
+-0.984016	Glu->Gln substitution	286.12772	GGE+Ethanolamine	E	285.143704	结构已画	CN[C@@H](CCC(O)=O)C(C)=O	O=C(NCC(N[C@@H](CCC(OCCN)=O)C(NC(CC[C@@H](C(C)=O)NC)=O)=O)=O)CN
+-0.94763	Glu->Lys substitution	240.0787	Naphthyl-2-methyl-succinyl	E	239.13107	结构已画	CN[C@@H](CCC(O)=O)C(C)=O	CN[C@@H](CCCCNC(C(CC1=CC=C(C=CC=C2)C2=C1)CC(O)=O)=O)C(C)=O
+8.016319	Glu->His substitution	45.987721	b-methylthiolation	E	54.00404	结构已画	CN[C@@H](CCC(O)=O)C(C)=O	CN[C@@H](CC1=CN([SH]=C)C=N1)C(C)=O
+-50.026883	His->Ser substitution	100.016044	Succiniyl	H	49.989161	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](COC(CCC(O)=O)=O)C(C)=O
+-50.026883	His->Ser substitution	192.063388	Heptose	H	142.036505	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](COCC(C(C(C(C(C=O)O)O)O)O)O)C(C)=O
+-41.062935	Lys->Ser substitution	232.1827	Hexadeca-9,12,15-trienoyl	K	191.119765	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](COC(C#CC#CC#CC#CC#CC#CC#CC)=O)C(C)=O.[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH]
+-27.047285	Lys->Thr substitution	56.026215	Propanoyl	K	28.97893	结构已画	CN[C@@H](CCCCN)C(C)=O	CNC(C(C)OC(CC)=O)C(C)=O
+-27.047285	Lys->Thr substitution	70.041865	Crotonaldehyde	K	42.99458	结构已画	CN[C@@H](CCCCN)C(C)=O	CC(OC(C(C(C)=O)NC)C)CC=O
+-27.047285	Lys->Thr substitution	126.0919	Crotonobetainyl	K	99.044615	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H]([C@@H](C)OC(/C=C/C[N+](C)(C)C)=O)C(C)=O
+17.956421	Leu/Ile->Met substitution	43.005814	Carbamylation	L	60.962235	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](C/C=S(C(N)=O)/C)C(C)=O
+-29.992806	Met->Thr substitution	119.004099	Cysteinylation	M	89.011293	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H]([C@H](OSC[C@@H](C(O)=O)N)C)C(C)=O
+-29.992806	Met->Thr substitution	119.9881	3-Sulfinopropanoyl	M	89.995294	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H]([C@H](OC(CCS(O)=O)=O)C)C(C)=O
+-12.995249	Asn->Thr substitution	288.0998	3-Hydroxy-7,8-dimethoxy-6-isopropoxy-2-naphthoyl	N	275.104551	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H]([C@H](OC(C1=CC=C(C(OC)=C(OC)C(OC(C)C)=C2O)C2=C1)=O)C)C(C)=O
+-12.995249	Asn->Thr substitution	324.105647	Lactosylation	N	311.110398	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H]([C@H](C)OC1OC(CO)C(O)C(OC2OC(CO)C(O)C(O)C2O)C1O)C(C)=O
+0.984016	Asn->Asp substitution	-15.994915	reduction	N	-15.010899	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CNC(CC=O)C(C)=O
+-41.026549	Gln->Ser substitution	162.052824	Hexose	Q	121.026275	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CN[C@@H](COC1C(O)C(O)C(O)C(CO)O1)C(C)=O
+-41.026549	Gln->Ser substitution	176.0474	Feruloyl	Q	135.020851	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CN[C@@H](COC(/C=C/C1=CC(OC)=C(O)C=C1)=O)C(C)=O
+13.979265	Thr->Asp substitution	37.031634	propargylamine	T	51.010899	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](CC(/C=C/C=N)=O)C(C)=O
+13.979265	Thr->Asp substitution	111.0320253	Pyroglutamic acid	T	125.0112903	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](CC(OC(C1CCC(N1)=O)=O)=O)C(C)=O
+-89.026549	Trp->Pro substitution	15.994915	Oxidation or Hydroxylation	W	-73.031634	结构已画	CN[C@@H](CC1=CNC2=CC=CC=C12)C(C)=O	CN1[C@@H](CC(O)C1)[C@](C)=O
+-19.009836	Phe->Gln substitution	27.994915	Formylation	F	8.985079	结构已画	CN[C@@H](CC1=CC=CC=C1)C(C)=O	CN[C@@H](CCC(NC=O)=O)C(C)=O
+-29.992806	Met->Thr substitution	126.0919	Crotonobetainyl	M	96.099094	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H]([C@H](OC(/C=C/C[N+](C)(C)C)=O)C)C(C)=O
+0.984016	Asn->Asp substitution	15.994915	Oxidation or Hydroxylation	N	16.978931	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H]([C@H](O)C(O)=O)C(C)=O
+27.994915	Ser->Asp substitution	144.1025	L-Carnitinyl	S	172.097415	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(OC(C[C@H](O)C[N+](C)(C)C)=O)=O)C(C)=O
+-27.047285	Lys->Thr substitution	140.1201	Nonanoyl	K	113.072815	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H]([C@H](C)OC(CCCCCCCC)=O)C(C)=O
+13.979265	Thr->Asp substitution	154.074228	Side reaction of PG with Side chain of aspartic or glutamic acid	T	168.053493	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=[C@](NCC(OC(C[C@@H](C(C)=O)NC)=O)=O)[C@H]1NCCC1
+13.979265	Thr->Asp substitution	156.1262631	Dimethyl-Lysine	T	170.1055281	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(OC(C[C@@H](C(C)=O)NC)=O)[C@H](CCCCN(C)C)N
+27.994915	Ser->Asp substitution	145.056135	HomoMethionine	S	173.05105	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(OC([C@H](CCCSC)N)=O)=O)C(C)=O
+43.005814	Ala->Asn substitution	129.07898	Hydroxyacetylhypusine	A	172.084794	结构已画	CN[C@@H](C)C(C)=O	CC(NCCCC(O)NC(C[C@@H](C(C)=O)NC)=O)=O
+-12.036386	Leu/Ile->Thr substitution	14.01565	Methylation	I	1.979264	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H]([C@H](OC)C)C(C)=O
+13.979265	Thr->Asp substitution	170.1167653	L-Homoarginine	T	184.0960303	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	N[C@@H](CCCCNC(N)=N)C(OC(C[C@@H](C(C)=O)NC)=O)=O
+-12.036386	Val->Ser substitution	100.0524	3-Hydroxyisovaleryl	V	88.016014	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](COC(CC(O)(C)C)=O)C(C)=O
+-27.047285	Lys->Thr substitution	218.167065	Farnesoyl	K	191.11978	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H]([C@H](C)OC(C#CC#CC#CC#CC#CC#CC#C)=O)C(C)=O.[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH]
+-50.026883	His->Ser substitution	218.1307	trans-2-Enoyl-OPC4	H	168.103817	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](COC(/C=C/CC1CCC(C1C/C=C/CC)=O)=O)C(C)=O
+-50.026883	His->Ser substitution	234.1256	3-Oxo-OPC4	H	184.098717	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](COC(CC(CC1CCC(C1C/C=C/CC)=O)=O)=O)C(C)=O
+-50.026883	His->Ser substitution	290.1882	3-Oxo-OPC8	H	240.161317	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	O=C(OC[C@@H](C(C)=O)NC)CC(CCCCCC1CCC(C1C/C=C/CC)=O)=O
+-12.036386	Val->Ser substitution	144.0423	3-Hydroxyadipyl	V	132.005914	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](COC(CC(O)CCC(O)=O)=O)C(C)=O
+14.974514	Leu/Ile->Gln substitution	71.03711532	Sarcosine	L	86.01162932	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](CCC(NC(CNC)=O)=O)C(C)=O
+-12.017759	Asp->Cys substitution	-33.003705	pyruvic acid from N-term cys	D	-45.021464	结构已画	O=C(C)[C@H](CC(O)=O)N	O=C(C)C(C)=O
+-12.036386	Val->Ser substitution	170.1307	Hydroxydecanoyl	V	158.094314	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](COC(CC(O)CCCCCCC)=O)C(C)=O
+13.06802	Asp->Lys substitution	200.0474	Piperoyl	D	213.11542	结构已画	CN[C@@H](CC(O)=O)C(C)=O	CN[C@@H](CCCCNC(/C=C/C=C/C1=CC(OCO2)=C2C=C1)=O)C(C)=O
+13.979265	Thr->Asp substitution	194.0579	3-Hydroxy-3-(3-hydroxy-4-methoxyphenyl)propionyl	T	208.037165	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(OC(C[C@@H](C(C)=O)NC)=O)CC(O)C1=CC=C(OC)C(O)=C1
+-12.036386	Val->Ser substitution	182.0943	3-Isopropenylpimelyl	V	170.057914	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](COC(CCCC(C(C)=C)CC(O)=O)=O)C(C)=O
+43.989829	Ala->Asp substitution	71.9848	Oxalyl	A	115.974629	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CC(OC(C(O)=O)=O)=O)C(C)=O
+-42.058184	Arg->Asn substitution	26.01565	Acetaldehyde +26	R	-16.042534	结构已画	CN[C@@H](CCCNC(N)=N)C(C)=O	CN[C@@H](CC(NC=C)=O)C(C)=O
+27.994915	Ser->Asp substitution	156.0423	3-Oxopimeloyl	S	184.037215	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(OC(CC(CCCC(O)=O)=O)=O)=O)C(C)=O
+31.042199	Pro->Lys substitution	31.989829	dihydroxy	P	63.032028	结构已画	CN1[C@@H](CCC1)[C@](C)=O	CN[C@@H]([C@@H](O)C(O)CCN)C(C)=O
+31.989829	Pro->Glu substitution	15.994915	Oxidation or Hydroxylation	P	47.984744	结构已画	CN1[C@@H](CCC1)[C@](C)=O	CN[C@@H](CC(O)C(O)=O)C(C)=O
+31.989829	Pro->Glu substitution	27.994915	Formylation	P	59.984744	结构已画	CN1[C@@H](CCC1)[C@](C)=O	CN[C@@H](CCC(OC=O)=O)C(C)=O
+-23.015984	His->Asn substitution	-17.026549	Loss of ammonia	H	-40.042533	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN/C(C(C)=O)=C/C=O
+43.989829	Ala->Asp substitution	121.9674	Sulfoacetyl	A	165.957229	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CC(OC(CS(=O)(O)=O)=O)=O)C(C)=O
+43.989829	Ala->Asp substitution	128.094963	Addition of lysine due to transpeptidation	A	172.084792	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CC(OC([C@H](CCCCN)N)=O)=O)C(C)=O
+-23.015984	His->Asn substitution	147.03204	formylanthranilatyl	H	124.016056	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](CC(NC(C1=C(NC=O)C=CC=C1)=O)=O)C(C)=O
+-22.031969	His->Asp substitution	-18.010565	Dehydration	H	-40.042534	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](CC1=O)C(N1C)=O
+-28.006148	Arg->Lys substitution	43.005814	Carbamylation	R	14.999666	结构已画	CN[C@@H](CCCNC(N)=N)C(C)=O	CN[C@@H](CCCCNC(N)=O)C(C)=O
+13.06802	Asp->Lys substitution	324.105647	Lactosylation	D	337.173667	结构已画	CN[C@@H](CC(O)=O)C(C)=O	CN[C@@H](CCCCNC1C(O)C(O)C(O)C(COC2C(O)C(O)C(O)C(CO)O2)O1)C(C)=O
+27.994915	Ser->Asp substitution	156.101111	Addition of arginine due to transpeptidation	S	184.096026	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(OC([C@H](CCCNC(N)=N)N)=O)=O)C(C)=O
+99.079647	Gly->Arg substitution	114.031694	Glutaryl	G	213.111341	结构已画	CNCC(C)=O	CN[C@@H](CCCNC(NC(CCCC(O)=O)=O)=N)C(C)=O
+99.079647	Gly->Arg substitution	114.042927	Asn	G	213.122574	结构已画	CNCC(C)=O	O=C(NC(NCCC[C@@H](C(C)=O)NC)=N)[C@H](CC(N)=O)N
+99.079647	Gly->Arg substitution	218.0579	Feruloylacetyl	G	317.137547	结构已画	CNCC(C)=O	CN[C@@H](CCCNC(NC(CC(/C=C/C1=CC=C(O)C(OC)=C1)=O)=O)=N)C(C)=O
+13.979265	Thr->Asp substitution	246.162	trans-2-Enoyl-OPC6	T	260.141265	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(/C=C/CCCC1CCC(C1/C=C/CCC)=O)OC(C[C@@H](C(C)=O)NC)=O
+43.989829	Ala->Asp substitution	154.135765	Decanoyl	A	198.125594	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H]([C@H](OC(CC(CCCCCCC)=O)=O)C)C(C)=O
+-85.031634	Trp->Thr substitution	100.016044	Methylmalonylation on Serine	W	14.98441	结构已画	CN[C@@H](CC1=CNC2=CC=CC=C12)C(C)=O	CN[C@@H]([C@H](OC(C(C)C(O)=O)=O)C)C(C)=O
+43.989829	Ala->Asp substitution	180.1514	dodecenoyl	A	224.141229	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CC(OC(C#CC#CC#CC#CC#CC)=O)=O)C(C)=O.[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH]
+43.989829	Ala->Asp substitution	246.162	trans-2-Enoyl-OPC6	A	290.151829	结构已画	CN[C@@H](C)C(C)=O	O=C(/C=C/CCCC1CCC(C1/C=C/CCC)=O)OC(C[C@@H](C(C)=O)NC)=O
+0.984016	Asn->Asp substitution	27.994915	Formylation	N	28.978931	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H](CC(OC=O)=O)C(C)=O
+-13.06802	Lys->Asp substitution	129.042593	monoglutamyl	K	115.974573	结构已画	CN[C@@H](CCCCN)C(C)=O	O=C(OC(C[C@@H](C(C)=O)NC)=O)CC(O)(C)C(O)=O
+-13.06802	Lys->Asp substitution	130.026609	Citramalyl	K	116.958589	结构已画	CN[C@@H](CCCCN)C(C)=O	O=C(O)[C@H](CCC(OC(C[C@@H](C(C)=O)NC)=O)=O)N
+-13.06802	Lys->Asp substitution	170.1167653	L-Homoarginine	K	157.0487453	结构已画	CN[C@@H](CCCCN)C(C)=O	N[C@@H](CCCCNC(N)=N)C(OC(C[C@@H](C(C)=O)NC)=O)=O
+-13.06802	Lys->Asp substitution	282.2559	3-Hydroxyoctadecanoyl	K	269.18788	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CC(OC(CC(O)CCCCCCCCCCCCCCC)=O)=O)C(C)=O
+0.984016	Asn->Asp substitution	42.010565	Acetylation	N	42.994581	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H](CC(OC(C)=O)=O)C(C)=O
+-32.022844	Tyr->Met substitution	43.989829	Carboxylation	Y	11.966985	放弃组合	CN[C@@H](CC1=CC=C(C=C1)O)C(C)=O	CN[C@@H](/C=C/[SH](C(O)=O)C)C(C)=O
+27.994915	Ser->Asp substitution	171.0895433	2-Aminosuberic Acid	S	199.0844583	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(OC(C(CCCCCC(O)=O)N)=O)=O)C(C)=O
+27.994915	Ser->Asp substitution	198.162	(S)-3-Hydroxydodecanoyl	S	226.156915	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(OC(CC(CCCCCCCCC)O)=O)=O)C(C)=O
+-60.054144	Tyr->Cys substitution	72.021129	Carboxyethyl	Y	11.966985	结构已画	CN[C@@H](CC1=CC=C(C=C1)O)C(C)=O	CN[C@@H](CSC(C(O)C)=O)C(C)=O
+87.032028	glycidamide adduct	15.994915	Oxidation or Hydroxylation	C	103.026943	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(CC(O)C(N)=O)=O)C(C)=O
+-28.0313	Met->Cys substitution	87.032028	glycidamide adduct	M	59.000728	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](CSCC(O)C(N)=O)C(C)=O
+58.005479	Gly->Asp substitution	101.04768	Thr/homoserinyl	G	159.053159	结构已画	CNCC(C)=O	O=C(OC(C[C@@H](C(C)=O)NC)=O)[C@H]([C@H](O)C)N
+27.994915	Ser->Asp substitution	203.079373	N-Acetylhexosamine	S	231.074288	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC(OC1OC(CNC(C)=O)C(O)C(O)C1O)=O)C(C)=O
+71.073499	Cys alkylation by dimethylaminoethyl halide	31.989829	dihydroxy	C	103.063328	结构已画	CN[C@@H](CS)C(C)=O	O=C(C)[C@H](CS(=O)(CCN(C)C)=O)NC
+-15.977156	Cys->Ser substitution	126.0919	Crotonobetainyl	C	110.114744	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](COC(/C=C/C[N+](C)(C)C)=O)C(C)=O
+47.984744	cysteine oxidation to cysteic acid	71.037114	Acrylamide adduct	C	119.021858	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)(OCCC(N)=O)=O)C(C)=O
+93.02146	2,6-Dihydroxypyridine	31.989829	dihydroxy	C	125.011289	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)(N1C(O)=CC=CC1)=O)C(C)=O
+27.058518	Glu->Arg substitution	240.0787	Naphthyl-2-methyl-succinyl	E	267.137218	结构已画	CN[C@@H](CCC(O)=O)C(C)=O	CN[C@@H](CCCNC(NC(CC(CC1=CC=C(C=CC=C2)C2=C1)C(O)=O)=O)=N)C(C)=O
+86.084403	Glu->Ser substitution (-42.010565) and then addition of lysine due to transpeptidation (128.094963)	157.0528	(indol-3-yl)acetamidyl	E	243.137203	结构已画	CN[C@@H](CCC(O)=O)C(C)=O	CN[C@@H](COC([C@H](CCCCNC(CC1=CNC2=C1C=CC=C2)=O)N)=O)C(C)=O
+-0.036386	Lys->Gln substitution	26.01565	Acetaldehyde +26	K	25.979264	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCC(NC=C)=O)C(C)=O
+-0.036386	Lys->Gln substitution	41.026549	amidination of lysines or N-terminal amines with methyl acetimidate	K	40.990163	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCC(N/C=C/N)=O)C(C)=O
+34.049727	Cys->His substitution	106.00885	reaction with methyl vinyl sulfone	C	140.058577	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CC1=CN(CCS(=O)(C)=O)C=N1)C(C)=O
+-15.977156	Cys->Ser substitution	156.0423	3-Oxopimeloyl	C	140.065144	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](COC(CC(CCCC(O)=O)=O)=O)C(C)=O
+47.984744	cysteine oxidation to cysteic acid	92.997965	O-methyl amino phosphinate	C	140.982709	结构已画	CN[C@@H](CS)C(C)=O	O=P(N)(OS(C[C@@H](C(C)=O)NC)(=O)=O)OC
+25.085779	Cys->Lys substitution	116.010959	S-(2-succinyl) cysteine	C	141.096738	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CCCCNC(C(O)=O)CC(O)=O)C(C)=O
+43.042199	Carboxyl modification with ethanolamine	15.994915	Oxidation or Hydroxylation	E	59.037114	结构已画	CN[C@@H](CCC(O)=O)C(C)=O	CN[C@@H](CC(O)C(OCCN)=O)C(C)=O
+0.984016	Asn->Asp substitution	257.13756	Add Lys-Glu	N	258.121576	结构已画	CN[C@@H](CC(N)=O)C(C)=O	O=C(N[C@@H](CCC(OC(C[C@@H](C(C)=O)NC)=O)=O)[C@@](O)=O)[C@H](CCCCN)N
+14.999666	Asn->Glu substitution	13.979265	aldehyde and ketone modifications	N	28.978931	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H](CC(C(O)=O)=O)C(C)=O
+14.999666	Asn->Glu substitution	203.079373	N-Acetylhexosamine	N	218.079039	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H](CCC(OC1C(O)C(O)C(O)C(CNC(C)=O)O1)=O)C(C)=O
+16.997557	Asn->Met substitution	-48.003371	Homoserine lactone	N	-31.005814	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN/[C@](C(C)=O)=C\C
+115.02695	aspartatyl	31.989829	dihydroxy	C	147.016779	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)(C([C@H](CC(O)=O)N)=O)=O)C(C)=O
+-17.026549	Pyro-glu from Q	15.994915	Oxidation or Hydroxylation	Q	-1.031634	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CN[C@@H](CC(C=O)=O)C(C)=O
+-15.010899	Gln-NH	31.989829	dihydroxy	Q	16.97893	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CN[C@@H](CC(O)C(O)=O)C(C)=O
+47.984744	cysteine oxidation to cysteic acid	99.03204	3-amino-4-oxobutanoic acidyl	C	147.016784	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)(C(CC(N)C=O)=O)=O)C(C)=O
+133.019749	S-homocysteinylation	15.994915	Oxidation or Hydroxylation	C	149.014664	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(SCC[C@@H](C(O)=O)N)=O)C(C)=O
+-14.01565	Gln->Asn substitution	54.010565	Methylglyoxal-derived hydroimidazolone	Q	39.994915	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CN[C@@H](CC(NC(C=C)=O)=O)C(C)=O
+-28.0313	Met->Cys substitution	99.03204	3-amino-4-oxobutanoic acidyl	M	71.00074	结构已画	CN[C@@H](CCSC)C(C)=O	O=C(SC[C@@H](C(C)=O)NC)CC(C=O)N
+-28.0313	Met->Cys substitution	101.04768	Thr/homoserinyl	M	73.01638	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](CSC([C@H]([C@H](O)C)N)=O)C(C)=O
+14.974514	Leu/Ile->Gln substitution	97.05276532	(R)-2-Aminopent-4-enoic acid	L	112.0272793	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](CCC(NC(C(CC=C)N)=O)=O)C(C)=O
+-0.036386	Lys->Gln substitution	86.04801532	Diaminopropanoic acid	K	86.01162932	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCC(NC(C(N)CN)=O)=O)C(C)=O
+-0.036386	Lys->Gln substitution	100.0636653	Diaminobutanoic acid	K	100.0272793	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCC(NC(C(N)CCN)=O)=O)C(C)=O
+-0.036386	Lys->Gln substitution	157.0851253	Citrulline	K	157.0487393	结构已画	CN[C@@H](CCCCN)C(C)=O	N[C@@H](CCCNC(N)=O)C(NC(CC[C@@H](C(C)=O)NC)=O)=O
+-0.036386	Lys->Gln substitution	171.1007753	L-Homocitrulline	K	171.0643893	结构已画	CN[C@@H](CCCCN)C(C)=O	N[C@@H](CCCCNC(N)=O)C(NC(CC[C@@H](C(C)=O)NC)=O)=O
+13.979265	Thr->Asp substitution	290.1882	3-Oxo-OPC8	T	304.167465	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(CC(CCCCC1CCC(C1/C=C/CCCC)=O)=O)OC(C[C@@H](C(C)=O)NC)=O
+13.979265	Thr->Asp substitution	366.20424	prostaglandin G2	T	380.183505	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](CC(OC1C[C@H](C/C=C\CCCC(O)=O)[C@@H]([C@@H](O)CC(CC(O)CCC)=O)C1=O)=O)C(C)=O
+29.974179	quinone	15.994915	Oxidation or Hydroxylation	W	45.969094	结构已画	CN[C@@H](CC1=CNC2=CC=CC=C12)C(C)=O	CN[C@@H](CC1=CNC(C(C(O)=C2)=O)=C1C2=O)C(C)=O
+27.994915	Ser->Asp substitution	215.12699	Add Lys-Ser	S	243.121905	结构已画	CN[C@@H](CO)C(C)=O	O=C(N[C@@H](CO)C(OC(C[C@@H](C(C)=O)NC)=O)=O)[C@H](CCCCN)N
+119.004099	Cysteinylation	31.989829	dihydroxy	C	150.993928	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)(SC[C@@H](C(O)=O)N)=O)C(C)=O
+58.005479	Gly->Asp substitution	161.0840653	Homophenylalanine	G	219.0895443	结构已画	CNCC(C)=O	N[C@@H](CCC1=CC=CC=C1)C(OC(C[C@@H](C(C)=O)NC)=O)=O
+72.021129	Gly->Glu substitution	15.994915	Oxidation or Hydroxylation	G	88.016044	结构已画	CNCC(C)=O	CN[C@@H](CC(O)C(O)=O)C(C)=O
+27.994915	Ser->Asp substitution	246.162	trans-2-Enoyl-OPC6	S	274.156915	结构已画	CN[C@@H](CO)C(C)=O	O=C(/C=C/CCCC1CCC(C1/C=C/CCC)=O)OC(C[C@@H](C(C)=O)NC)=O
+26.033409	Cys->Glu substitution	129.042593	monoglutamyl	C	155.076002	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CCC(OC([C@H](CCC(O)=O)N)=O)=O)C(C)=O
+43.989829	Ala->Asp substitution	259.13545	Add Lys-Met	A	303.125279	结构已画	CN[C@@H](C)C(C)=O	O=C(N[C@@H](CCSC)[C@@](OC(C[C@@H](C(C)=O)NC)=O)=O)[C@H](CCCCN)N
+72.021129	Gly->Glu substitution	87.032028	Ser	G	159.053157	结构已画	CNCC(C)=O	CN[C@@H](CCC(OC([C@H](CO)N)=O)=O)C(C)=O
+72.021129	Gly->Glu substitution	128.094963	Addition of lysine due to transpeptidation	G	200.116092	结构已画	CNCC(C)=O	CN[C@@H](CCC(OC([C@H](CCCCN)N)=O)=O)C(C)=O
+72.021129	Gly->Glu substitution	147.06841	Phenylalaninyl	G	219.089539	结构已画	CNCC(C)=O	O=C(OC(CC[C@@H](C(C)=O)NC)=O)[C@H](CC1=CC=CC=C1)N
+72.021129	Gly->Glu substitution	256.18993	Add Lys-Lys	G	328.211059	结构已画	CNCC(C)=O	O=C(N[C@@H](CCCCNC(CC[C@@H](C(C)=O)NC)=O)[C@@](O)=O)[C@H](CCCCN)N
+80.037448	Gly->His substitution	114.042927	Asn	G	194.080375	结构已画	CNCC(C)=O	CN[C@@H](CC1=CN(C([C@H](CC(N)=O)N)=O)C=N1)C(C)=O
+90.04695	Gly->Phe substitution	17.990578	fluorination	G	108.037528	结构已画	CNCC(C)=O	CN[C@@H](CC1=CC=C(F)C=C1)C(C)=O
+0.94763	Lys->Glu substitution	28.0313	Ethylation	K	28.97893	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCC(OCC)=O)C(C)=O
+27.010899	Thr->Gln substitution	-17.026549	Pyro-glu from Q	T	9.98435	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](/C=C/C=O)C(C)=O
+-22.031969	His->Asp substitution	15.994915	Oxidation or Hydroxylation	H	-6.037054	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H]([C@H](O)C(O)=O)C(C)=O
+-22.031969	His->Asp substitution	56.026215	Propanoyl	H	33.994246	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	O=C(OC(C[C@@H](C(C)=O)NC)=O)CC
+27.010899	Thr->Gln substitution	26.01565	Acetaldehyde +26	T	53.026549	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](CCC(NC=C)=O)C(C)=O
+27.010899	Thr->Gln substitution	113.0476753	Hydroxyproline	T	140.0585743	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	OC1[C@@H]([C@@](NC(CC[C@@H](C(C)=O)NC)=O)=O)NCC1
+31.989829	Pro->Glu substitution	31.989829	dihydroxy	P	63.979658	结构已画	CN1[C@@H](CCC1)[C@](C)=O	CN[C@@H]([C@@H](O)C(O)C(O)=O)C(C)=O
+-13.031634	Gln->Asp substitution	42.010565	Acetylation	Q	28.978931	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CN[C@@H](CCC(OC=O)=O)C(C)=O
+-13.031634	Gln->Asp substitution	126.0681	2-Hydroxycyclohexane-1-carboxyl	Q	113.036466	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CN[C@@H](CC(OC(C1CCCCC1O)=O)=O)C(C)=O
+-22.031969	His->Asp substitution	72.021129	Lactoyl	H	49.98916	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](CC(OC(C(C)O)=O)=O)C(C)=O
+-22.031969	His->Asp substitution	188.0474	(E)-2-Benzylidenesuccinyl	H	166.015431	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	O=C(OC(C[C@@H](C(C)=O)NC)=O)/C(CC(O)=O)=C/C1=CC=CC=C1
+-22.031969	His->Asp substitution	220.1463	OPC4	H	198.114331	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	O=C(OC(C[C@@H](C(C)=O)NC)=O)CCCC1CCC(C1C/C=C/CC)=O
+27.010899	Thr->Gln substitution	113.0840653	Norleucine	T	140.0949643	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	N[C@@H](CCCC)C(NC(CC[C@@H](C(C)=O)NC)=O)=O
+27.994915	Ser->Asp substitution	262.1569	3-Oxo-OPC6	S	290.151815	结构已画	CN[C@@H](CO)C(C)=O	O=C(CC(CCCC1CCC(C1/C=C/CCC)=O)=O)OC(C[C@@H](C(C)=O)NC)=O
+27.994915	Ser->Asp substitution	264.1726	3-Hydroxy-OPC6	S	292.167515	结构已画	CN[C@@H](CO)C(C)=O	O=C(CC(CCCC1CCC(O)C1/C=C/CCC)=O)OC(C[C@@H](C(C)=O)NC)=O
+-34.020735	Tyr->Glu substitution	45.987721	b-methylthiolation	Y	11.966986	结构已画	CN[C@@H](CC1=CC=C(C=C1)O)C(C)=O	CN[C@@H](CCC(OSC)=O)C(C)=O
+29.974179	quinone	15.994915	Oxidation or Hydroxylation	Y	45.969094	结构已画	CN[C@@H](CC1=CC=C(C=C1)O)C(C)=O	CN[C@@H](CC(C(C(O)=C1O)=O)=CC1=O)C(C)=O
+-76.0313	Tyr->Ser substitution	122.013281	O-Isopropylphosphorylation	Y	45.981981	结构已画	CN[C@@H](CC1=CC=C(C=C1)O)C(C)=O	CN[C@@H](COP(O)(OC(C)C)=O)C(C)=O
+-12.036386	Leu/Ile->Thr substitution	128.011	2-Oxoglutaryl	L	115.974614	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H]([C@H](OC(C(CCC(O)=O)=O)=O)C)C(C)=O
+14.974514	Leu/Ile->Gln substitution	125.0840653	2-Amino-2-cyclopentylacetic acid	L	140.0585793	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](CCC(NC(C(C1CCCC1)N)=O)=O)C(C)=O
+13.979265	Tryptophan oxidation to oxolactone	31.989829	dihydroxy	W	45.969094	结构已画	CN[C@@H](CC1=CNC2=CC=CC=C12)C(C)=O	CN[C@@H](CC1C(NC(C(C=C2)=O)=C1C2=O)=O)C(C)=O
+0.984016	Gln->Glu substitution	15.994915	Oxidation or Hydroxylation	Q	16.978931	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CN[C@@H]([C@@H](O)CC(O)=O)C(C)=O
+-22.031969	His->Asp substitution	276.2089	OPC8	H	254.176931	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	O=C(OC(C[C@@H](C(C)=O)NC)=O)CCCCCCCC1CCC(C1C/C=C/CC)=O
+-10.031969	Aspartylurea	15.994915	Oxidation or Hydroxylation	H	5.962946	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](CC(C(O)=O)=O)C(C)=O
+-9.000334	His->Gln substitution	27.994915	Formylation	H	18.994581	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](CCC(NC=O)=O)C(C)=O
+14.01565	Asp->Glu substitution	199.13208	Add Lys-Ala	D	213.14773	结构已画	CN[C@@H](CC(O)=O)C(C)=O	CN[C@@H](CCC(OC([C@H](C)NC([C@H](CCCCN)N)=O)=O)=O)C(C)=O
+0.984016	Gln->Glu substitution	27.994915	Formylation	Q	28.978931	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CN[C@@H](CC(OC(C)=O)=O)C(C)=O
+-27.058518	Arg->Glu substitution	86.04801532	Diaminopropanoic acid	R	58.98949732	结构已画	CN[C@@H](CCCNC(N)=N)C(C)=O	CN[C@@H](CCC(OC(C(CN)N)=O)=O)C(C)=O
+-9.000334	His->Gln substitution	156.101111	Addition of arginine due to transpeptidation	H	147.100777	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	O=C(NC(CC[C@@H](C(C)=O)NC)=O)[C@H](CCCNC(N)=N)N
+-28.006148	Arg->Lys substitution	186.0317	1,4-Dihydroxy-2-naphthoyl	R	158.025552	结构已画	CN[C@@H](CCCNC(N)=N)C(C)=O	CN[C@@H](CCCCNC(C1=CC(O)=C(C=CC=C2)C2=C1O)=O)C(C)=O
+43.989829	Carboxylation	15.994915	Oxidation or Hydroxylation	W	59.984744	结构已画	CN[C@@H](CC1=CNC2=CC=CC=C12)C(C)=O	CN[C@@H](CC1=C(O)NC2=C(C(O)=O)C=CC=C12)C(C)=O
+-8.963949	His->Lys substitution	152.006087	O-diethylphosphothione	H	143.042138	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](CCCCNP(OCC)(OCC)=S)C(C)=O
+-8.963949	His->Lys substitution	164.060231	O-Diisopropylphosphorylation	H	155.096282	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](CCCCNP(OCCC)(OCCC)=O)C(C)=O
+-8.963949	His->Lys substitution	170.036779	Menadione quinone derivative	H	161.07283	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](CCCCNC1=C(C)C(C(C=CC=C2)=C2C1=O)=O)C(C)=O
+14.01565	Asp->Glu substitution	259.13545	Add Lys-Met	D	273.1511	结构已画	CN[C@@H](CC(O)=O)C(C)=O	O=C(N[C@@H](CCSC)[C@@](OC(CC[C@@H](C(C)=O)NC)=O)=O)[C@H](CCCCN)N
+14.01565	Asp->Glu substitution	286.12772	GGE+Ethanolamine	D	300.14337	结构已画	CN[C@@H](CC(O)=O)C(C)=O	O=C(NCC(N[C@@H](CCC(OCCN)=O)C(OC(CC[C@@H](C(C)=O)NC)=O)=O)=O)CN
+71.05237	Asp->Trp substitution	100.016044	Methylmalonylation on Serine	D	171.068414	结构已画	CN[C@@H](CC(O)=O)C(C)=O	CN[C@@H](CC1=CN(C(C(C(O)=O)C)=O)C2=CC=CC=C12)C(C)=O
+27.994915	Ser->Asp substitution	294.183109	cis-14-hydroxy-10,13-dioxo-7-heptadecenoic ester	S	322.178024	结构已画	CN[C@@H](CO)C(C)=O	O=C(OC(C[C@@H](C(C)=O)NC)=O)CCCCC/C=C\CC(CCC(C(O)CCC)=O)=O
+-13.06802	Lys->Asp substitution	294.183109	cis-14-hydroxy-10,13-dioxo-7-heptadecenoic ester	K	281.115089	结构已画	CN[C@@H](CCCCN)C(C)=O	O=C(OC(C[C@@H](C(C)=O)NC)=O)CCCCC/C=C\CC(CCC(C(O)CCC)=O)=O
+87.032028	glycidamide adduct	15.994915	Oxidation or Hydroxylation	W	103.026943	结构已画	CN[C@@H](CC1=CNC2=CC=CC=C12)C(C)=O	CN[C@@H](CC1=CNC2=CC(OCC(O)C(N)=O)=CC=C12)C(C)=O
+-12.036386	Val->Ser substitution	244.105922	O-linked (DADDGlc) serine	V	232.069536	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](COC1C(NC(C)=O)C(O)C(NC(C)=O)C(CO)O1)C(C)=O
+-26.052036	Leu/Ile->Ser substitution	176.032088	hexuronic acid	L	149.980052	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](COC1C(O)C(O)C(O)C(C(O)=O)O1)C(C)=O
+14.974514	Leu/Ile->Gln substitution	153.1153653	(S)-2-Amino-3-cyclohexylpropanoic acid	L	168.0898793	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](CCC(NC(C(CC1CCCCC1)N)=O)=O)C(C)=O
+-28.0313	Met->Cys substitution	128.05858	Gln	M	100.02728	结构已画	CN[C@@H](CCSC)C(C)=O	O=C(SC[C@@H](C(C)=O)NC)[C@H](CCC(N)=O)N
+-21.987721	methionine replacement by homopropargylglycine	15.994915	Oxidation or Hydroxylation	M	-5.992806	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](CCC#CO)C(C)=O
+41.026549	amidination of lysines or N-terminal amines with methyl acetimidate	31.989829	dihydroxy	P	73.016378	结构已画	CN1[C@@H](CCC1)[C@](C)=O	CN1[C@@H](C(O)C(O/C=C/N)C1)[C@](C)=O
+-16.997557	Met->Asn substitution	26.01565	Acetaldehyde +26	M	9.018093	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](CC(NC=C)=O)C(C)=O
+128.094963	Addition of lysine due to transpeptidation	31.989829	dihydroxy	C	160.084792	结构已画	CN[C@@H](CS)C(C)=O	O=C(C)[C@H](CS(=O)(C([C@H](CCCCN)N)=O)=O)NC
+-4.986324	Methionine replacement by azido homoalanine	15.994915	Oxidation or Hydroxylation	M	11.008591	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](CCN=NN=O)C(C)=O
+23.015984	Asn->His substitution	-10.031969	Aspartylurea	N	12.984015	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H](CC(C=O)=O)C(C)=O
+71.037114	Ala	31.989829	dihydroxy	E	103.026943	放弃组合	CN[C@@H](CCC(O)=O)C(C)=O	CN[C@@H](CC(O)C(OCC(C(N)=O)O)=O)C(C)=O
+-1.961506	Cys->Thr substitution	162.052824	Hexose	C	160.091318	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H]([C@@H](C)OCC1C(O)C(O)C(O)C(CO)O1)C(C)=O
+130.026609	S-(2-monomethylsuccinyl) cysteine	31.989829	dihydroxy	C	162.016438	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)(C(CC(O)=O)C(OC)=O)=O)C(C)=O
+47.984744	cysteine oxidation to cysteic acid	116.010959	S-(2-succinyl) cysteine	C	163.995703	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)(OC(C(O)=O)CC(O)=O)=O)C(C)=O
+42.010565	Acetylation	31.989829	dihydroxy	M	74.000394	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](/C=C/[SH](C)(OC(C)=O)=O)C(C)=O
+185.11643	Add Lys-Gly	31.989829	dihydroxy	W	217.106259	结构已画	CN[C@@H](CC1=CNC2=CC=CC=C12)C(C)=O	CN[C@@H](CC1=CNC2=C(OC(CNC([C@H](CCCCN)N)=O)=O)C=CC(O)=C12)C(C)=O
+107.997631	O-Ethylphosphorylation	15.994915	Oxidation or Hydroxylation	P	123.992546	结构已画	CN1[C@@H](CCC1)[C@](C)=O	CN1[C@@H](CC(OP(OCC)(O)=O)C1)[C@](C)=O
+43.005814	Carbamylation	15.994915	Oxidation or Hydroxylation	M	59.000729	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](CC[SH](OC(O)N)C)C(C)=O
+43.005814	Carbamylation	31.989829	dihydroxy	M	74.995643	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](/C=C/[SH](OC(N)=O)(C)=O)C(C)=O
+151.996571	DTT adduct of cysteine	15.994915	Oxidation or Hydroxylation	C	167.991486	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS([2H])=O)C(C)=O.[3H][3H]
+136.028931	O-Diethylphosphorylation	31.989829	dihydroxy	C	168.01876	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)(P(OCC)(OCC)=O)=O)C(C)=O
+0.94763	Lys->Glu substitution	42.04695	Propyl	K	42.99458	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCC(OCCC)=O)C(C)=O
+0.94763	Lys->Glu substitution	156.101111	Addition of arginine due to transpeptidation	K	157.048741	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCC(OC([C@H](CCCNC(N)=N)N)=O)=O)C(C)=O
+2.945522	Lys->Met substitution	-21.987721	methionine replacement by homopropargylglycine	K	-19.042199	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCC#C)C(C)=O
+8.963949	Lys->His substitution	56.026215	acrolein-Michael adduct 	K	64.990164	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CC1=CN(C(CC)=O)C=N1)C(C)=O
+27.994915	Ser->Asp substitution	330.16143	S-butyryl-pantetheine	S	358.156345	结构已画	CN[C@@H](CO)C(C)=O	CC(C(O)C(NCCC(NCCSC(CCC)=O)=O)=O)(C)COC(C[C@@H](C(C)=O)NC)=O
+1.979265	Val->Thr substitution	206.0579	(Hydroxymethylphenyl)succinyl	V	208.037165	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H]([C@@H](C)OC(CC(C(O)=O)C(C1=CC=CC=C1)O)=O)C(C)=O
+-12.036386	Leu/Ile->Thr substitution	182.0943	3-Isopropenylpimelyl	L	170.057914	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H]([C@H](OC(CCCC(C(C)=C)CC(O)=O)=O)C)C(C)=O
+8.963949	Lys->His substitution	113.084064	Ile/Leu	K	122.048013	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CC1=CN(C([C@H](CC(C)C)N)=O)C=N1)C(C)=O
+28.006148	Lys->Arg substitution	71.0371	b-Alanyl	K	99.043248	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCCNC(NCCC(N)=O)=N)C(C)=O
+87.032028	glycidamide adduct	15.994915	Oxidation or Hydroxylation	M	103.026943	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](/C=C/[SH](OCC(O)C(N)=O)C)C(C)=O
+128.094963	Addition of lysine due to transpeptidation	31.989829	dihydroxy	M	160.084792	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](/C=C/[SH](C)(OC([C@H](CCCCN)N)=O)=O)C(C)=O
+144.08988	Hydroxylysinyl	15.994915	Oxidation or Hydroxylation	M	160.084795	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](CC[SH](OC([C@H](CCCCN)N=O)=O)C)C(C)=O
+26.033409	Cys->Glu substitution	142.07423	Ala-Ala	C	168.107639	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CCC(OC([C@H](C)NC([C@H](C)N)=O)=O)=O)C(C)=O
+14.974514	Leu/Ile->Gln substitution	171.0895433	2-Aminosuberic Acid	L	186.0640573	结构已画	CN[C@@H](CC(C)C)C(C)=O	O=C(NC(CC[C@@H](C(C)=O)NC)=O)C(N)CCCCCC(O)=O
+1.979265	Val->Thr substitution	258.1984	Stearidonoyl	V	260.177665	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H]([C@@H](C)OC([C17H27])=O)C(C)=O
+0.984016	Gln->Glu substitution	87.032028	Ser	Q	88.016044	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	O=C(C)[C@H](CCC(OC([C@H](CO)N)=O)=O)NC
+28.006148	Lys->Arg substitution	72.021129	Lactoyl	K	100.027277	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCCNC(NC(C(O)C)=O)=N)C(C)=O
+28.006148	Lys->Arg substitution	113.084064	Ile/Leu	K	141.090212	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCCNC(NC([C@H](CC(C)C)N)=O)=N)C(C)=O
+41.026549	Ser->Gln substitution	143.0582453	Nethylmaleimide+water	S	184.0847943	结构已画	CN[C@@H](CO)C(C)=O	O=C1C(O)CC(NC(CC[C@@H](C(C)=O)NC)=O)(O)N1CC
+41.026549	Ser->Gln substitution	13.979265	aldehyde and ketone modifications	S	55.005814	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CCC(N=O)=O)C(C)=O
+1.979265	Val->Thr substitution	290.1882	3-Oxo-OPC8	V	292.167465	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H]([C@H](C)OC(CC(CCCCCC1CCC(C1/C=C/CCC)=O)=O)=O)C(C)=O
+145.03752	L-erythro-4-hydroxyglutamatyl	31.989829	dihydroxy	M	177.027349	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](/C=C/S(OC([C@H](C(O)CC(O)=O)N)=O)(O)C)C(C)=O
+114.042927	Asn	15.994915	Oxidation or Hydroxylation	H	130.037842	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CN[C@@H](CC1=CN(C([C@H](CC(N)=O)N)=O)C(N1)=O)C(C)=O
+29.026549	Val->Lys substitution	26.01565	Acetaldehyde +26	V	55.042199	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](CCCCNC=C)C(C)=O
+29.026549	Val->Lys substitution	111.0320253	Pyroglutamic acid	V	140.0585743	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	O=C1CC[C@@H]([C@@](NCCCC[C@@H](C(C)=O)NC)=O)N1
+29.026549	Val->Lys substitution	111.0684153	2-Piperidinecarboxylic acid/Pipecolinic acid	V	140.0949643	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](CCCCNC(C1NCCCC1)=O)C(C)=O
+27.010899	Thr->Gln substitution	128.0585775	HomoAsn	T	155.0694765	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	N[C@@H](CCC(N)=O)C(NC(CC[C@@H](C(C)=O)NC)=O)=O
+27.010899	Thr->Gln substitution	157.0851253	Citrulline	T	184.0960243	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	N[C@@H](CCCNC(N)=O)C(NC(CC[C@@H](C(C)=O)NC)=O)=O
+29.026549	Val->Lys substitution	152.1201	Citronellyl	V	181.146649	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](CCCCNC(CC(C)CC/C=C(C)/C)=O)C(C)=O
+27.010899	Thr->Gln substitution	181.0294453	2-Amino-3-(2-chlorophenyl)propanoic acid	T	208.0403443	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(NC(CC[C@@H](C(C)=O)NC)=O)C(N)CC1=CC=CC=C1Cl
+27.010899	Thr->Gln substitution	350.20945	prostaglandin G2	T	377.220349	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	OC(CCC\C=C/C[C@@H](C(NC(CC[C@@H](C(C)=O)NC)=O)C1)[C@@H](CCC(CC(O)CCC)=O)C1=O)=O
+9.000334	Gln->His substitution	-10.031969	Aspartylurea	Q	-1.031635	结构已画	CN[C@@H](CCC(N)=O)C(C)=O	CN[C@@H](CC(C=O)=O)C(C)=O
+-19.009836	Phe->Gln substitution	157.0851253	Citrulline	F	138.0752893	结构已画	CN[C@@H](CC1=CC=CC=C1)C(C)=O	N[C@@H](CCCNC(N)=O)C(NC(CCC(C(C)=O)NC)=O)=O
+-15.977156	Cys->Ser substitution	186.0317	1,4-Dihydroxy-2-naphthoyl	C	170.054544	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](COC(C1=C(O)C(C=CC=C2)=C2C(O)=C1)=O)C(C)=O
+-15.977156	Cys->Ser substitution	186.07931	Trp	C	170.102154	结构已画	CN[C@@H](CS)C(C)=O	O=C(OC[C@@H](C(C)=O)NC)[C@H](CC1=CNC2=CC=CC=C12)N
+41.026549	Ser->Gln substitution	14.01565	Methylation	S	55.042199	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CCC(NC)=O)C(C)=O
+41.026549	Ser->Gln substitution	27.994915	Formylation	S	69.021464	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CCC(NC=O)=O)C(C)=O
+41.026549	Ser->Gln substitution	31.989829	dihydroxy	S	73.016378	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H]([C@@H](O)C(O)C(N)=O)C(C)=O
+28.006148	Lys->Arg substitution	114.031694	Glutaryl	K	142.037842	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCCNC(NC(CCCC(O)=O)=O)=N)C(C)=O
+28.006148	Lys->Arg substitution	143.0582453	2-(Methylamino)pentanedioic acid	K	171.0643933	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCCNC(NC(C(NC)CCC(O)=O)=O)=N)C(C)=O
+83.070128	Cys->Trp substitution	87.032028	glycidamide adduct	C	170.102156	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CC1=CN(CC(O)C(N)=O)C2=CC=CC=C12)C(C)=O
+53.091927	Cys->Arg substitution	119.004099	Cysteinylation	C	172.096026	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CCCNC(NSC[C@@H](C(O)=O)N)=N)C(C)=O
+47.984744	cysteine oxidation to cysteic acid	129.042593	monoglutamyl	C	177.027337	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(=O)(OC([C@H](CCC(O)=O)N)=O)=O)C(C)=O
+156.101111	Addition of arginine due to transpeptidation	15.994915	Oxidation or Hydroxylation	H	172.096026	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	O=C(N(C(N1)=O)C=C1C[C@@H](C(C)=O)NC)[C@H](CCCNC(N)=N)N
+53.091927	Cys->Arg substitution	128.05858	Gln	C	181.150507	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CCCNC(NC([C@H](CCC(N)=O)N)=O)=N)C(C)=O
+28.006148	Lys->Arg substitution	144.08988	Hydroxylysinyl	K	172.096028	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CCCNC(NC(C(N)CC(O)CCN)=O)=N)C(C)=O
+28.006148	Lys->Arg substitution	171.1007753	L-Homocitrulline	K	199.1069233	结构已画	CN[C@@H](CCCCN)C(C)=O	N[C@@H](CCCCNC(N)=O)C(NC(NCCC[C@@H](C(C)=O)NC)=N)=O
+34.968366	Lys->Tyr substitution	162.052824	Hexose	K	197.02119	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H](CC2=CC=C(C=C2)OC1OC(CO)C(O)C(O)C1O)C(C)=O
+29.026549	Val->Lys substitution	180.1514	dodecenoyl	V	209.177949	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](CCCCNC(/C=C/CCCCCCCCC)=O)C(C)=O
+156.101111	Addition of arginine due to transpeptidation	15.994915	Oxidation or Hydroxylation	M	172.096026	结构已画	CN[C@@H](CCSC)C(C)=O	CN[C@@H](/C=C/[SH](OC([C@H](CCCNC(N)=N)N)=O)C)C(C)=O
+175.02695	5-hydroxyindole-2-carboxylate	15.994915	Oxidation or Hydroxylation	M	191.021865	结构已画	CN[C@@H](CCSC)C(C)=O	O=C(C)[C@@H](C/C=S(OC(C1=CC2=C(C=C(O)C(O)=C2)N1)=O)\C)NC
+26.033409	Cys->Glu substitution	162.052824	Hexose	C	188.086233	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CCC(OC1C(O)C(O)C(O)C(CO)O1)=O)C(C)=O
+27.047285	Thr->Lys substitution	113.0476753	Hydroxyproline	T	140.0949603	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	OC1[C@@H]([C@@](NCCCC[C@@H](C(C)=O)NC)=O)NCC1
+41.026549	Ser->Gln substitution	142.0742253	Homoglutamine	S	183.1007743	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CCC(NC([C@H](CCCC(N)=O)N)=O)=O)C(C)=O
+43.005814	Carbamylation	15.994915	Oxidation or Hydroxylation	K	59.000729	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H]([C@@H](O)CCCNC(N)=O)C(C)=O
+171.1007753	L-Homocitrulline	15.994915	Oxidation or Hydroxylation	D	187.0956903	结构已画	CN[C@@H](CC(O)=O)C(C)=O	CN[C@@H]([C@H](O)C(OC([C@H](CCCCNC(N)=O)N)=O)=O)C(C)=O
+-28.006148	Arg->Lys substitution	383.228103	LRGG,Ubiquitination	R	355.221955	结构已画	CN[C@@H](CCCNC(N)=N)C(C)=O	O=C(N[C@@H](CCCNC(N)=N)C(NCC(NCC(NCCCC[C@@H](C(C)=O)NC)=O)=O)=O)[C@H](CC(C)C)N
+-15.977156	Cys->Ser substitution	214.063	2-Hydroxy-7-methoxy-5-methyl-1-naphthoyl	C	198.085844	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](COC(C1=C(O)C(C=C(C)C=C2)=C2C(OC)=C1)=O)C(C)=O
+57.057849	Ala->Lys substitution	140.0474	2-Hydroxy-6-oxocyclohexane-1-carbonyl	A	197.105249	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CCCCNC(C1C(CCCC1O)=O)=O)C(C)=O
+56.026215	Propanoyl	31.989829	dihydroxy	K	88.016044	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H]([C@@H](O)CC(O)CNC(CC)=O)C(C)=O
+1.979265	Val->Thr substitution	145.03752	L-erythro-4-hydroxyglutamatyl	V	147.016785	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H]([C@H](OC(C(O)CC(N)C(O)=O)=O)C)C(C)=O
+41.026549	Ser->Gln substitution	366.20424	prostaglandin G2	S	407.230789	结构已画	CN[C@@H](CO)C(C)=O	OC(CCC\C=C/C[C@@H](C(C(C[C@@H](C(C)=O)NC)=O)C1)[C@@H]([C@](CC(CC(O)CCC)=O)=O)C1=O)=O
+72.021129	Lactoyl	15.994915	Oxidation or Hydroxylation	K	88.016044	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H]([C@@H](O)CCCNC(C(O)C)=O)C(C)=O
+156.101111	Addition of arginine due to transpeptidation	31.989829	dihydroxy	H	188.09094	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	O=C(N(C(N1)=O)C(C1C[C@@H](C(C)=O)NC)=O)[C@H](CCCNC(N)=N)N
+58.005479	Ala->Glu substitution	128.05858	Gln	A	186.064059	结构已画	CN[C@@H](C)C(C)=O	O=C(OC(CC[C@@H](C(C)=O)NC)=O)[C@H](CCC(N)=O)N
+58.005479	Ala->Glu substitution	139.099714	Cyclohexyl-Gly	A	197.105193	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CCC(OC(C(C1CCCCC1)N)=O)=O)C(C)=O
+85.063997	Ala->Arg substitution	83.03711432	1-aminocyclopropanecarboxylic acid 	A	168.1011113	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CCCNC(NC(C1(N)CC1)=O)=N)C(C)=O
+85.063997	Ala->Arg substitution	86.000394	Malonylation	A	171.064391	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CCCNC(NC(CC(O)=O)=O)=N)C(C)=O
+85.063997	Ala->Arg substitution	112.05243	3-Oxohexanoyl	A	197.116427	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CCCNC(NC(CC(CCC)=O)=O)=N)C(C)=O
+158.13068	reduced 4-Hydroxynonenal	31.989829	dihydroxy	H	190.120509	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	CCCC(O)CC(O)C(N(C=N1)C=C1C[C@@H](C(C)=O)NC)CC(O)O
+-26.052036	Leu/Ile->Ser substitution	286.2297	Arachidonyl	L	260.177664	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](COC(C#CC#CC#CC#CC#CC#CC#CC#CC#CC)O)C(C)=O.[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH]
+29.026549	Val->Lys substitution	182.1671	Lauroyl	V	211.193649	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](CCCCNC(CCCCCCCCCCC)=O)C(C)=O
+27.047285	Thr->Lys substitution	154.09938	4-Oxononenal (ONE)	T	181.146665	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CCCCCC(CCC(NCCCC[C@@H](C(C)=O)NC)=O)=O
+41.062935	Ser->Lys substitution	85.0164	Malonamoyl	S	126.079335	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CCCCNC(CC(N)=O)=O)C(C)=O
+-15.977156	Cys->Ser substitution	244.105922	O-linked (DADDGlc) serine	C	228.128766	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](COC1C(NC(C)=O)C(O)C(NC(C)=O)C(CO)O1)C(C)=O
+25.049393	Cys->Gln substitution	203.079373	N-Acetylhexosamine	C	228.128766	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CCC(NC1C(O)C(O)C(O)C(COC(C)=O)O1)=O)C(C)=O
+41.062935	Ser->Lys substitution	119.9881	3-Sulfinopropanoyl	S	161.051035	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CCCCNC(CCS(O)=O)=O)C(C)=O
+210.198366	Myristoylation	31.989829	dihydroxy	C	242.188195	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(OC(C#CC#CC#CC#CC#CC#CC)O)=O)C(C)=O.[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH].[HH]
+29.974179	Val->Glu substitution	95.03711532	Propargylglycine	V	125.0112943	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](CCC(OC(C(N)CC#C)=O)=O)C(C)=O
+27.047285	Thr->Lys substitution	216.07936	N2-Formyl-N1-D-ribosyl-glycinamide	T	243.126645	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(NC1[C@@H]([C@@H]([C@@H](CNCCCC[C@@H](C(C)=O)NC)O1)O)O)CNC=O
+41.062935	Ser->Lys substitution	168.115	3-Oxodecanoyl	S	209.177935	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CCCCNC(CC(CCCCCCC)=O)=O)C(C)=O
+42.010565	Ser->Glu substitution	99.068414	Val	S	141.078979	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CCC(OC([C@H](C(C)C)N)=O)=O)C(C)=O
+42.010565	Ser->Glu substitution	128.094963	Addition of lysine due to transpeptidation	S	170.105528	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CCC(OC([C@H](CCCCN)N)=O)=O)C(C)=O
+42.010565	Ser->Glu substitution	142.0742253	Homoglutamine	S	184.0847903	结构已画	CN[C@@H](CO)C(C)=O	N[C@@H](CCCC(N)=O)C(OC(CC[C@@H](C(C)=O)NC)=O)=O
+266.13068	2-ethyl-3-hydroxy-1,3-diphenylpentan-1-one	15.994915	Oxidation or Hydroxylation	M	282.125595	结构已画	CN[C@@H](CCSC)C(C)=O	CC(C1=CC(O[SH](C)/C=C/[C@@H](C(C)=O)NC)=CC=C1)(O)C(CC)C(C2=CC=CC=C2)=O
+27.047285	Thr->Lys substitution	217.0375	Benzoxazolinyl	T	244.084785	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](CCCCNC(C1=C(OC)C=C(OC(C(N2)=O)=C)C2=C1)=O)C(C)=O
+27.047285	Thr->Lys substitution	257.13756	Add Lys-Glu	T	284.184845	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(N[C@@H](CCC(NCCCC[C@@H](C(C)=O)NC)=O)[C@@](O)=O)[C@H](CCCCN)N
+27.994915	Thr->Glu substitution	-18.010565	Pyro-glu from E	T	9.98435	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](CCC1=O)C(N1)=O
+27.994915	Thr->Glu substitution	37.031634	propargylamine	T	65.026549	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](CCC(/C=C/C=N)=O)C(C)=O
+42.010565	Ser->Glu substitution	170.1419132	Trimethyl-Lysine	S	212.1524782	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CCC(OC([C@H](CCCC[N+](C)(C)C)[NH-])=O)=O)C(C)=O
+42.010565	Ser->Glu substitution	241.179027	Addition of lysine (128.094963) and then Acetylhypusine (113.084064, K) 	S	283.189592	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CCC(OC([C@H](CCCCNCCCCNC(C)=O)N)=O)=O)C(C)=O
+336.2302	20-OH-10,11-dihydro-LTB4	31.989829	dihydroxy	H	368.220029	结构已画	CN[C@@H](CC1=CNC=N1)C(C)=O	O[C@H](/C=C\CC(N(C=N1)C=C1C[C@@H](C(C)=O)NC)C/C=C/C/C=C\CC(O)CC(O)CO)CCCC(O)=O
+136.028931	O-Diethylphosphorylation	31.989829	dihydroxy	K	168.01876	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H]([C@@H](O)C(O)CCNP(OCC)(OCC)=O)C(C)=O
+142.0742253	Homoglutamine	31.989829	dihydroxy	K	174.0640543	结构已画	CN[C@@H](CCCCN)C(C)=O	N[C@@H](CCCC(N)=O)C(NCCC(O)[C@H](O)[C@@H](C(C)=O)NC)=O
+156.101111	Addition of arginine due to transpeptidation	15.994915	Oxidation or Hydroxylation	K	172.096026	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H]([C@@H](O)CCCNC([C@H](CCCNC(N)=N)N)=O)C(C)=O
+85.063997	Ala->Arg substitution	171.0895433	2-Aminosuberic Acid	A	256.1535403	结构已画	CN[C@@H](C)C(C)=O	O=C(C)[C@H](CCCNC(NC(CCCCCC(N)C(O)=O)=O)=N)NC
+-15.977156	Cys->Ser substitution	264.084518	Pent(2)	C	248.107362	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](COC1C(O)C(O)C(OC2OCC(O)C(O)C2O)CO1)C(C)=O
+-15.977156	Cys->Ser substitution	290.1882	3-Oxo-OPC8	C	274.211044	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](COC(CC(CCCCCC1CCC(C1/C=C/CCC)=O)=O)=O)C(C)=O
+85.063997	Ala->Arg substitution	186.0317	1,4-Dihydroxy-2-naphthoyl	A	271.095697	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CCCNC(NC(C1=CC(O)=C(C=CC=C2)C2=C1O)=O)=N)C(C)=O
+85.063997	Ala->Arg substitution	192.0423	5(6)-Hydroxyferuloyl	A	277.106297	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CCCNC(NC(/C=C/C1=CC(OC)=C(O)C(O)=C1)=O)=N)C(C)=O
+85.063997	Ala->Arg substitution	374.2821	Chenodeoxycholoyl	A	459.346097	结构已画	CN[C@@H](C)C(C)=O	CN[C@@H](CCCNC(NC(CCC(C1C(CCC3C2C(O)CC4C(C)3CCC(O)C4)(C)C2CC1)C)=O)=N)C(C)=O
+27.994915	Thr->Glu substitution	156.101111	Addition of arginine due to transpeptidation	T	184.096026	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](CCC(OC([C@H](CCCNC(N)=N)N)=O)=O)C(C)=O
+27.994915	Thr->Glu substitution	215.12699	Add Lys-Ser	T	243.121905	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(N[C@@H](CO)C(OC(CC[C@@H](C(C)=O)NC)=O)=O)[C@H](CCCCN)N
+-42.04695	Leu/Ile->Ala substitution	334.21454	hydroxylation and LTB4	L	292.16759	结构已画	CN[C@@H](CC(C)C)C(C)=O	CN[C@@H](COC(CCCC(O)=O)/C=C/C=C/C=C/C(O)C/C=C\CCCCC)C(C)=O
+27.994915	Thr->Glu substitution	256.18993	Add Lys-Lys	T	284.184845	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](CCC(NCCCC[C@@H]([C@@](O)=O)NC([C@H](CCCCN)N)=O)=O)C(C)=O
+27.994915	Thr->Glu substitution	259.13545	Add Lys-Met	T	287.130365	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(N[C@@H](CCSC)[C@](OC(CC[C@@H](C(C)=O)NC)=O)=O)[C@H](CCCCN)N
+42.010565	Ser->Glu substitution	256.18993	Add Lys-Lys	S	298.200495	结构已画	CN[C@@H](CO)C(C)=O	O=C(N[C@@H](CCCCN)[C@](OC(CC[C@@H](C(C)=O)NC)=O)=O)[C@H](CCCCN)N
+42.010565	Ser->Glu substitution	259.13545	Add Lys-Met	S	301.146015	结构已画	CN[C@@H](CO)C(C)=O	O=C(N[C@@H](CCSC)[C@@](OC(CC[C@@H](C(C)=O)NC)=O)=O)[C@H](CCCCN)N
+76.0313	Ser->Tyr substitution	47.984744	trihydroxy	S	124.016044	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](CC1=CC(O)=C(C(O)=C1O)O)C(C)=O
+55.053433	Thr->Arg substitution	162.052824	Hexose	T	217.106257	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](CCCNC(NC1C(O)C(O)C(O)C(CO)O1)=N)C(C)=O
+47.984744	cysteine oxidation to cysteic acid	238.229666	Palmitoylation	C	286.21441	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CS(OC(CCCCCCCCCCCCCCC)=O)(=O)=O)C(C)=O
+-15.977156	Cys->Ser substitution	343.031785	S-guanylation	C	327.054629	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](COOP1(O[C@@H]([C@@H](O)C(N3C(N=C(N)NC4=O)=C4N=C3)O2)C2CO1)=O)C(C)=O
+76.0313	Ser->Tyr substitution	128.05858	Gln	S	204.08988	结构已画	CN[C@@H](CO)C(C)=O	O=C(OC(C=C1)=CC=C1C[C@@H](C(C)=O)NC)[C@H](CCC(N)=O)N
+57.032697	Val->Arg substitution	100.016044	Succiniyl	V	157.048741	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](CCCNC(NC(CCC(O)=O)=O)=N)C(C)=O
+99.047285	Ser->Trp substitution	55.98982	Glyoxylate	S	155.037105	结构已画	CN[C@@H](CO)C(C)=O	O=C(N[C@@H](CC1=CN(C(C=O)=O)C2=CC=CC=C12)C(N[C@@H](C)C(O)=O)=O)[C@H](C)N
+30.010565	Gly->Ser substitution	43.005814	Carbamylation	G	73.016379	结构已画	CNCC(C)=O	O=C(N)OC[C@@H](C(C)=O)NC
+340.100562	glucosylgalactosyl hydroxylysine	15.994915	Oxidation or Hydroxylation	K	356.095477	结构已画	CN[C@@H](CCCCN)C(C)=O	CN[C@@H]([C@@H](O)C(O)CCNC1C(O)C(O)C(O)C(COC2C(O)C(O)C(O)C(CO)O2)O1)C(C)=O
+291.15829	Add Lys-Tyr	15.994915	Oxidation or Hydroxylation	E	307.153205	结构已画	CN[C@@H](CCC(O)=O)C(C)=O	O=C(N[C@@H](CC1=CC=C(C(O)=C1)OC(CC[C@@H](C(C)=O)NC)=O)C(O)=O)[C@H](CCCCN)N
+33.025486	Asn->Phe substitution	44.985078	Oxidation to nitro	N	78.010564	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H]([C@@](C1=CC=C(NO)C=C1)=O)C(C)=O
+262.1569	3-Oxo-OPC6	15.994915	Oxidation or Hydroxylation	S	278.151815	结构已画	CN[C@@H](CO)C(C)=O	CN[C@@H](COC(CC(CCCC1CCC(C1/C=C/CCC)=O)=O)=O)C(C)=O
+62.01565	Thr->Tyr substitution	365.132196	Hex1HexNAc1	T	427.147846	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	CN[C@@H](CC2=CC=C(C=C2)OC1OC(COC3C(O)C(O)C(O)C(CNC(C)=O)O3)C(O)C(O)C1O)C(C)=O
+60.054144	Cys->Tyr substitution	365.132196	Hex1HexNAc1	C	425.18634	结构已画	CN[C@@H](CS)C(C)=O	CN[C@@H](CC2=CC=C(C=C2)OC1C(NC(C)=O)C(O)C(O)C(COC3C(O)C(O)C(O)C(CO)O3)O1)C(C)=O.C
+63.994915	Val->Tyr substitution	14.01565	Methylation	V	78.010565	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H](CC1=CC=C(C=C1)OC)C(C)=O
+100.016044	Succiniyl	31.989829	dihydroxy	V	132.005873	结构已画	CN[C@@H]([C@@H](C)C)C(C)=O	CN[C@@H]([C@@H](COC(CCC(O)=O)=O)CO)C(C)=O
+262.1569	3-Oxo-OPC6	15.994915	Oxidation or Hydroxylation	T	278.151815	结构已画	CN[C@@H]([C@H](O)C)C(C)=O	O=C(CC(CCC(O)C1CCC(C1/C=C/CCC)=O)=O)O[C@@H](C)[C@@H](C(C)=O)NC
+30.010565	Gly->Ser substitution	129.042593	monoglutamyl	G	159.053158	结构已画	CNCC(C)=O	O=C(C)[C@H](COC([C@H](CCC(O)=O)N)=O)NC
+49.020401	Asn->Tyr substitution	365.132196	Hex1HexNAc1	N	414.152597	结构已画	CN[C@@H](CC(N)=O)C(C)=O	CN[C@@H](CC2=CC=C(C=C2)OC1OC(CNC(C)=O)C(O)C(OC3OC(CO)C(O)C(O)C3O)C1O)C(C)=O
