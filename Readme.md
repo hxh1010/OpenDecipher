@@ -22,6 +22,12 @@
 - rdkit
 - matplotlib
 
+对应的版本号为：
+torch=1.12.1
+rdkit=2022.3.5
+torch-geometric= 2.1.0.post1
+scikit-learn=0.22
+
 您可以使用以下命令进行安装：
 
 ```bash
