@@ -273,3 +273,90 @@ class CCPGraph(torch.nn.Module):
         out = out.view(-1)
 
         return out, self.sigmoid(out), att, out_2
+
+
+class CCPGraphFeature(torch.nn.Module):
+    def __init__(self, input_bias=0):
+        super().__init__()
+        self.atom_type = ['H', 'B', 'C', 'N', 'O', 'F', 'Si', 'P', 'S', 'Cl', 'Br', 'I']
+        self.atom_type2 = [0, 1, 2, 3, 4, 5, 6]
+        self.atom_type3 = [0, 1, 2, 3, 4]
+        self.atom_type4 = ['S','SP','SP2', 'SP3', 'SP3D','SP3D2', 'UNSPECIFIED']
+        self.atom_type5 = [0, 1, 2, 3]
+        self.atom_type6 = [0,1]
+        self.atom_type7 = [0,1]
+        self.bond_type = ['SINGLE','DOUBLE','TRIPLE','AROMATIC']
+        self.d_model = 37
+        self.d_model_bond = 7
+        self.embeds = nn.Embedding(len(self.atom_type), 37)
+        # self.embeds2 = nn.Embedding(len(self.atom_type2), 4)
+        # self.embeds3 = nn.Embedding(len(self.atom_type3), 4)
+        # self.embeds4 = nn.Embedding(len(self.atom_type4), 4)
+        # self.embeds5 = nn.Embedding(len(self.atom_type5), 4)
+        # self.embeds6 = nn.Embedding(len(self.atom_type6), 4)
+        # self.embeds7 = nn.Embedding(len(self.atom_type7), 4)
+        self.embeds_bond = nn.Embedding(len(self.bond_type), self.d_model_bond)
+        self.conv1 = Conv(self.d_model, 64, edge_dim=self.d_model_bond)
+        self.gn1 = GraphNorm(64)
+        self.conv2 = Conv(64, 16, edge_dim=self.d_model_bond)
+        self.gn2 = GraphNorm(16)
+        self.conv3 = Conv(32, 16, edge_dim=self.d_model_bond)
+        self.gn3 = GraphNorm(16)
+        self.output_bias = input_bias
+
+        # pool
+        gate_nn = nn.Sequential(nn.Linear(16, 64),
+                                nn.ReLU(),
+                                nn.Linear(64, 32),
+                                nn.ReLU(),
+                                nn.Linear(32, 1))
+
+        self.readout = GlobalAttention(gate_nn)
+        self.lin1 = nn.Linear(16, 512)
+        self.bn1 = nn.BatchNorm1d(512)
+        self.dp1 = nn.Dropout(p=0.15)
+        self.lin2 = nn.Linear(512, 512)
+        self.bn2 = nn.BatchNorm1d(512)
+        self.dp2 = nn.Dropout(p=0.15)
+        self.lin3 = nn.Linear(512, 128)
+        self.bn3 = nn.BatchNorm1d(128)
+        self.dp3 = nn.Dropout(p=0.15)
+        self.lin = nn.Linear(128, 1)
+
+        self.dropout = nn.Dropout(0.08)
+        self.semi_layer = nn.Linear(16, 200, bias=False)
+        self.bn_semi = nn.BatchNorm1d(200)
+        self.dropout1 = nn.Dropout(0.15)
+        self.semi_layer2 = nn.Linear(200, 64, bias=False)
+        self.bn_semi2 = nn.BatchNorm1d(64)
+        self.final_layer = nn.Linear(in_features=200, out_features=1, bias=True)
+        self.sigmoid = nn.Sigmoid()
+        # self.init_parameter()
+
+    def init_parameter(self):
+        torch.nn.init.constant_(self.final_layer.bias.data, val=2)
+        self.final_layer.bias.requires_grad = False
+
+    def forward(self, data):
+        # data_x0 = self.embeds(data.x[:,0])
+        # data_x1 = self.embeds2(data.x[:, 1])
+        # data_x2 = self.embeds3(data.x[:, 2])
+        # data_x3 = self.embeds4(data.x[:, 3])
+        # data_x4 = self.embeds5(data.x[:, 4])
+        # data_x5 = self.embeds6(data.x[:, 5])
+        # data_x6 = self.embeds7(data.x[:, 6])
+        # data_x = torch.cat([data_x0,data_x1,data_x2,data_x3,data_x4,data_x5,data_x6],dim=-1)
+        # data_edge_attr = self.embeds_bond(data.edge_attr)
+        data_x = data.x
+        data_edge_attr = data.edge_attr
+        x = self.conv1(data_x, data.edge_index, data_edge_attr)
+        x = self.conv2(x, data.edge_index, data_edge_attr)
+        # x = self.conv3(x, data.edge_index, data_edge_attr)
+
+        embedding, att = self.readout(x, data.batch)
+        # print('embedding shape',embedding.shape)
+
+        out_1 = self.dropout(embedding)
+        out_2 = self.bn_semi(self.semi_layer(out_1))
+
+        return out_2
