@@ -12,7 +12,7 @@ from model_Transformer import TransformerEncoder
 from model_gcn_new import CCPGraph
 from feature_graph import Mol2Graph
 from model_merge_gcn_transformer import Model_Merge
-
+ 
 from rdkit.Chem import AllChem as Chem
 import numpy as np
 import random
