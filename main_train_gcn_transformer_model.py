@@ -12,6 +12,7 @@ from model_Transformer import TransformerEncoder
 from model_gcn_new import CCPGraph
 from feature_graph import Mol2Graph
 from model_merge_gcn_transformer import Model_Merge
+
 from rdkit.Chem import AllChem as Chem
 import numpy as np
 import random
@@ -1096,7 +1097,7 @@ class ModGCN_TransformerScore:
 
 
         num_layers = 1
-        d_model = 100
+        d_model = 20
         num_heads = 1
         dff = 1024
         seq_size = 200
