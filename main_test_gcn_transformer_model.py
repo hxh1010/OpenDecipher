@@ -399,7 +399,7 @@ class ModTransformerScore:
 
     def readTest(self, path_test: str):
 
-        with open(path_train, 'rb') as f:
+        with open(path_test, 'rb') as f:
             lines = f.read().decode(encoding='utf-8').split('\r\n')
         table_list = lines[0].split('\t')
 
@@ -1145,6 +1145,7 @@ if __name__ == '__main__':
 
     # 图卷积网络结合CNN+Transformer模型
     modScore = ModGCN_TransformerScore()
+    # 和GCN不同，该模型需要输入两个模型参数文件，在训练过程中会自动生成gcn_transformer和embed为名称的两个文件，选择准确率高的直接复制文件名称即可
     modScore.param_dic = r'./save/2024-06-12-23-38-09gcn_transformer_net_params-0.8975743348982785.pth'
     modScore.param_embed_dic = r'./save/2024-06-12-23-38-09embed_params-0.8975743348982785.pth'
     modScore.readTest(path_test)
