@@ -1094,8 +1094,8 @@ class ModGCN_TransformerScore:
 
     def predict(self, ):
 
-        self.param_dic = r'save/2024-06-12-22-59-17gcn_transformer_net_params-0.900605831124574.pth'
-        self.param_embed_dic = r'save/2024-06-12-22-59-17embed_params-0.900605831124574.pth'
+        self.param_dic = r'save/2024-06-13-13-41-03gcn_transformer_net_params-0.9016431924882629.pth'
+        self.param_embed_dic = r'save/2024-06-13-13-41-03embed_params-0.9016431924882629.pth'
 
         num_layers = 1
         d_model = 100
