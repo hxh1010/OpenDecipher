@@ -135,3 +135,43 @@ class TransformerEncoder(nn.Module):
         out = torch.squeeze(out, dim=1)
 
         return out, self.sigmoid(out)
+
+
+class TransformerEncoderFeature(nn.Module):
+
+    def __init__(self, num_layers=2, d_model=100, num_heads=1, dff=200, output_bias=0, seq_len=200, rate=0.1):
+        super(TransformerEncoderFeature, self).__init__()
+        self.seq_size = seq_len
+        self.d_model = d_model
+        self.num_layers = num_layers
+        self.output_bias = output_bias
+        self.enc_layers = nn.ModuleList([])
+        self.enc_layers.extend([
+            TransformerEncoderLayer(d_model, num_heads, dff, rate)
+            for _ in range(num_layers)])
+        self.dropout = nn.Dropout(rate)
+        self.semi_final = nn.Linear(d_model, 1, bias=False)
+
+        self.conv1 = nn.Conv1d(in_channels=self.d_model, out_channels=self.d_model, kernel_size=5, stride=1)
+        self.final_layer = nn.Linear(in_features=self.seq_size, out_features=1, bias=True)
+        self.sigmoid = nn.Sigmoid()
+
+    def init_parameter(self):
+        torch.nn.init.constant_(self.final_layer.bias.data, val=self.output_bias)
+
+    def forward(self, x, mask):
+
+        x = x.reshape([-1, self.seq_size, self.d_model]).permute(0,2,1)
+        x = self.conv1(x).permute(0,2,1)
+        x = x.reshape([-1, self.seq_size-5+1, self.d_model])
+
+        x = F.pad(x, pad=(0, 0, 0, 5-1, 0, 0), mode="constant", value=0)
+        for i in range(self.num_layers):
+            x = self.enc_layers[i](x, mask)
+
+        x = self.dropout(x)
+        out = self.semi_final(x)
+        out = out.reshape([-1, self.seq_size])
+        feature = out / 1e6
+
+        return feature
