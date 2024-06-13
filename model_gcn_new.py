@@ -3,7 +3,6 @@ import torch.nn.functional as F
 from torch import nn
 from torch_geometric.nn import MessagePassing, GraphNorm
 from torch_scatter import scatter
- 
 from torch_scatter import scatter_add
 from torch_geometric.utils import softmax
 
