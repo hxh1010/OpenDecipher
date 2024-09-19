@@ -4,6 +4,8 @@
 
 This project employs a deep learning model using a graph convolutional network (GCN) to predict the likelihood of molecular changes before and after a modification reaction. The input to the model is a pair of molecules in SMILES format (before and after the reaction), and the output is a probability score indicating whether the modification reaction can occur.
 
+### To assist users in running our program from scratch, we have prepared a user introduction video. Please refer to the User Introduction Video.mp4 located in the main directory. Below is the textual user guide for setting up the environment.
+
 ## Environment Setup
 
 ### System Requirements
