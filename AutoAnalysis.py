@@ -618,11 +618,11 @@ def read_delta_mass(path: str):
 if __name__ == '__main__':
 
     process_num = 1
-    path_modif = r'data\串联修饰库规则20231028.xlsx'
+    path_modif = r'data\mod_rule_20231028.xlsx'
     dic_aa2mod, dic_mod_info, dic_reac_group2mod, dic_mod2index, dic_index2mod, dic_reac_group2modindex, dic_modindex_info = func_load_mod_rule(path_modif)
     modTree = ModTree(dic_aa2mod, dic_mod_info, dic_reac_group2mod, dic_mod2index, dic_index2mod, dic_reac_group2modindex, dic_modindex_info)
 
-    list_info = read_delta_mass(r'D:\项目\郑大_构建修饰树\data.txt')
+    list_info = read_delta_mass(r'data\data.txt')
     path_out = r'data\data_search.txt.txt'
     f_w = open(path_out, 'w')
 
