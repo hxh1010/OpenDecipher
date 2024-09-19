@@ -141,17 +141,57 @@ write predict result to  predict\2024-05-28-21-06-13.txt
 python AutoAnalysis.py
 ```
 
-请确保您的数据集中的分子以SMILES格式表示，并存储在CSV或其他兼容格式中。
-#### 训练集格式：
+在AutoAnalysis.py文件中，需要修改的信息是在代码最后的list_info，需要将需要查找的delta mass匹配改成自己的结果，构建好之后放到data文件夹中，然后修改对应文件名称即可
+``` bash
+if __name__ == '__main__':
+
+    process_num = 1
+    path_modif = r'data\串联修饰库规则20231028.xlsx'
+    dic_aa2mod, dic_mod_info, dic_reac_group2mod, dic_mod2index, dic_index2mod, dic_reac_group2modindex, dic_modindex_info = func_load_mod_rule(path_modif)
+    modTree = ModTree(dic_aa2mod, dic_mod_info, dic_reac_group2mod, dic_mod2index, dic_index2mod, dic_reac_group2modindex, dic_modindex_info)
+    
+    list_info = read_delta_mass(r'D:\项目\郑大_构建修饰树\data.txt')
+    path_out = r'data\data_search.txt.txt'
+    f_w = open(path_out, 'w')
+
+```
+若顺利运行代码，在输出端会显示当前运行信息，代表对输入的delta mass找到了多组候选的修饰组合，进一步需要按照测试集的文件格式，计算各个后续修饰组合的反应前后SMILES结构，并将文件目录输入到程序中，程序会自动运行得到各个修饰组合的反应可能性打分：
+``` bash
+[-3.994915, 'Glu', '']
+[['Glu->Leu/Ile substitution', 'dihydroxy', 'Formation of five membered aromatic heterocycle', 0.0], ['Glu->Lys substitution', 'alpha-amino adipic acid', 'Pyro-glu from E', 0.0], ['Glu->Lys substitution', 'alpha-amino adipic acid', 'Dehydration', 0.0], ['Glu->Pro substitution', 'Oxidation or Hydroxylation', 'formaldehyde adduct', -1.9073486e-06], ['Glu->Pro substitution', 'proline oxidation to pyroglutamic acid', 'Methylation', -1.9073486e-06], ['Glu->Thr substitution', 'Ethanolation', 'Formation of five membered aromatic heterocycle', 0.0], ['Pyro-Glu from E + Methylation', 0.0]]
+[[2.0, 'Pyro-Glu from E + Methylation'], [1.0, 'Glu->Leu/Ile substitution', 'dihydroxy', 'Formation of five membered aromatic heterocycle'], [1.0, 'Glu->Lys substitution', 'alpha-amino adipic acid', 'Pyro-glu from E'], [1.0, 'Glu->Lys substitution', 'alpha-amino adipic acid', 'Dehydration'], [1.0, 'Glu->Thr substitution', 'Ethanolation', 'Formation of five membered aromatic heterocycle'], [0.9999980926513672, 'Glu->Pro substitution', 'Oxidation or Hydroxylation', 'formaldehyde adduct'], [0.9999980926513672, 'Glu->Pro substitution', 'proline oxidation to pyroglutamic acid', 'Methylation']]
+79.7059714794159
+7
+0 [2.0, 'Pyro-Glu from E + Methylation']
+1 [1.0, 'Glu->Leu/Ile substitution', 'dihydroxy', 'Formation of five membered aromatic heterocycle']
+2 [1.0, 'Glu->Lys substitution', 'alpha-amino adipic acid', 'Pyro-glu from E']
+3 [1.0, 'Glu->Lys substitution', 'alpha-amino adipic acid', 'Dehydration']
+4 [1.0, 'Glu->Thr substitution', 'Ethanolation', 'Formation of five membered aromatic heterocycle']
+5 [0.9999980926513672, 'Glu->Pro substitution', 'Oxidation or Hydroxylation', 'formaldehyde adduct']
+6 [0.9999980926513672, 'Glu->Pro substitution', 'proline oxidation to pyroglutamic acid', 'Methylation']
+please input path of SMILES info before and after of reaction
+data/test_data_20240708res.txt
+read predict result...
+read done, valid result number and prepare to predict: 445
+load pretrained model and predict...
+predict done.
+write predict result to  predict\2024-09-19-12-02-03.txt
+```
+
+下面是运行程序需要的delta mass匹配文件的格式和得到修饰组合后的预测格式：
+#### delta mass匹配格式：
 训练集文件表头需要包括描述，反应前分子SMILES，反应后分子SMILES，类别（1能反应，0不能反应）四个必要信息，示例如下：
 
-| description | smile_before | smile_after | class|
-|----------|----------|----------|----------|
-| tri-Methylation| O=C([CH2])[C@H](CCCCN)N[CH2] | O=C([CH2])[C@H](CCCC[N+](C)(C)C)N[CH2] | 1|
-| Phospho | O=C([CH2])[C@H](CCCCN)N[CH2] | O=C([CH2])[C@H](CCCCNP(O)(O)=O)N[CH2] | 0|
+| DeltaMass | aa | position|
+|----------|----------|----------|
+| -3.994915	| Glu | |
+| 244.9382 | Asp | N-term|
 
-#### 测试集格式：
-测试集文件表头需要包括
+#### 得到修饰组合后的预测格式：
+| description | smile_before | smile_after | 
+|----------|----------|----------|
+| tri-Methylation| O=C([CH2])[C@H](CCCCN)N[CH2] | O=C([CH2])[C@H](CCCC[N+](C)(C)C)N[CH2] | 
+| Phospho | O=C([CH2])[C@H](CCCCN)N[CH2] | O=C([CH2])[C@H](CCCCNP(O)(O)=O)N[CH2] | 
 
 
 ## 注意事项
