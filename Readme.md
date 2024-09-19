@@ -33,7 +33,7 @@ scikit-learn=0.22
 ```bash
 pip install torch torch_geometric sklearn rdkit matplotlib
 ```
-## 数据准备
+## 训练模型数据准备
 
 请确保您的数据集中的分子以SMILES格式表示，并存储在CSV或其他兼容格式中。
 #### 训练集格式：
