@@ -179,8 +179,8 @@ write predict result to  predict\2024-09-19-12-02-03.txt
 ```
 
 下面是运行程序需要的delta mass匹配文件的格式和得到修饰组合后的预测格式：
-#### delta mass匹配格式：
-训练集文件表头需要包括描述，反应前分子SMILES，反应后分子SMILES，类别（1能反应，0不能反应）四个必要信息，示例如下：
+#### delta mass匹配文件格式：
+delta mass匹配文件表头需要包括需要查找的delta mass质量，对应的氨基酸位点，对应的氨基酸位置（是否在N-term或者C-term），示例如下：
 
 | DeltaMass | aa | position|
 |----------|----------|----------|
