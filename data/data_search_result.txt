@@ -1,0 +1,9 @@
+-3.994915	Glu	
+the number of result: 7
+2.0	Pyro-Glu from E + Methylation
+1.0	Glu->Leu/Ile substitution	dihydroxy	Formation of five membered aromatic heterocycle
+1.0	Glu->Lys substitution	alpha-amino adipic acid	Pyro-glu from E
+1.0	Glu->Lys substitution	alpha-amino adipic acid	Dehydration
+1.0	Glu->Thr substitution	Ethanolation	Formation of five membered aromatic heterocycle
+0.9999980926513672	Glu->Pro substitution	proline oxidation to pyroglutamic acid	Methylation
+0.9999980926513672	Glu->Pro substitution	Oxidation or Hydroxylation	formaldehyde adduct
