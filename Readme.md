@@ -95,7 +95,7 @@ epoch: 0     Train:    TPR 0.5207956600361664 TNR 0.5499092558983666 bacc 0.5353
 
 使用以下命令启动预测过程：
 ``` bash
-python main_test_gcn_model
+python main_test_gcn_model.py
 ```
 在main_test_gcn_model.py文件中，需要修改的信息是在代码最后的path_test和modScore.param_dic，分别代表要预测的结果文件和使用训练好的模型参数
 1.path_test需要按数据准备部分的格式改成自己的训练集，构建好训练集文本之后放到data文件夹中，然后修改对应文件名称即可
@@ -123,7 +123,7 @@ write predict result to  predict\2024-05-28-21-06-13.txt
 ```
 
 
-## 结果解析
+## 模型预测结果解析
 模型预测的结果会保存到predict文件夹中，格式为predict\XX-XX-XX-XX.txt，其中XX-XX-XX-XX表示当前模型预测的日期，内容是所有预测结果基础信息、模型打分和模型根据打分判断的类别
 #### 结果文件格式
 | description | smile_before | smile_after | predict|class
@@ -132,6 +132,27 @@ write predict result to  predict\2024-05-28-21-06-13.txt
 | Phospho | O=C([CH2])[C@H](CCCCN)N[CH2] | O=C([CH2])[C@H](CCCCNP(O)(O)=O)N[CH2] | 0.999725878238678	|True
 
 模型的输出是一个概率打分，代表修饰反应发生的可能性。打分越高，反应发生的可能性越大
+
+
+## 自动分析流程
+
+使用以下命令启动预测过程：
+``` bash
+python AutoAnalysis.py
+```
+
+请确保您的数据集中的分子以SMILES格式表示，并存储在CSV或其他兼容格式中。
+#### 训练集格式：
+训练集文件表头需要包括描述，反应前分子SMILES，反应后分子SMILES，类别（1能反应，0不能反应）四个必要信息，示例如下：
+
+| description | smile_before | smile_after | class|
+|----------|----------|----------|----------|
+| tri-Methylation| O=C([CH2])[C@H](CCCCN)N[CH2] | O=C([CH2])[C@H](CCCC[N+](C)(C)C)N[CH2] | 1|
+| Phospho | O=C([CH2])[C@H](CCCCN)N[CH2] | O=C([CH2])[C@H](CCCCNP(O)(O)=O)N[CH2] | 0|
+
+#### 测试集格式：
+测试集文件表头需要包括
+
 
 ## 注意事项
 请确保您的数据已经转换为SMILES格式字符串。如果您在数据转换或模型运行过程中遇到任何问题，欢迎随时联系。
